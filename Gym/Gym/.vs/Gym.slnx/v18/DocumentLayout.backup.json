@@ -1,0 +1,268 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\juanc\\OneDrive\\Documentos\\Escuela\\Cuarto Semestre\\visual net\\parcial 1\\Git\\VisualKgada\\Gym\\SisremaDeGestion\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BAC367B5-84BE-4DCF-8174-7BE5DA83A604}|SisremaDeGestion\\Gym.csproj|c:\\users\\juanc\\onedrive\\documentos\\escuela\\cuarto semestre\\visual net\\parcial 1\\git\\visualkgada\\gym\\sisremadegestion\\sisremadegestion\\views\\inventarioview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BAC367B5-84BE-4DCF-8174-7BE5DA83A604}|SisremaDeGestion\\Gym.csproj|solutionrelative:sisremadegestion\\views\\inventarioview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAC367B5-84BE-4DCF-8174-7BE5DA83A604}|SisremaDeGestion\\Gym.csproj|C:\\Users\\juanc\\OneDrive\\Documentos\\Escuela\\Cuarto Semestre\\visual net\\parcial 1\\Git\\VisualKgada\\Gym\\SisremaDeGestion\\sisremadegestion\\viewmodel\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAC367B5-84BE-4DCF-8174-7BE5DA83A604}|SisremaDeGestion\\Gym.csproj|solutionrelative:sisremadegestion\\viewmodel\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAC367B5-84BE-4DCF-8174-7BE5DA83A604}|SisremaDeGestion\\SistemaDeGestion.csproj|C:\\Users\\juanc\\OneDrive\\Documentos\\Escuela\\Cuarto Semestre\\visual net\\parcial 1\\Git\\VisualKgada\\Gym\\SisremaDeGestion\\sisremadegestion\\viewmodel\\viewmodelcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAC367B5-84BE-4DCF-8174-7BE5DA83A604}|SisremaDeGestion\\SistemaDeGestion.csproj|solutionrelative:sisremadegestion\\viewmodel\\viewmodelcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAC367B5-84BE-4DCF-8174-7BE5DA83A604}|SisremaDeGestion\\Gym.csproj|C:\\Users\\juanc\\OneDrive\\Documentos\\Escuela\\Cuarto Semestre\\visual net\\parcial 1\\Git\\VisualKgada\\Gym\\SisremaDeGestion\\sisremadegestion\\views\\loginview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAC367B5-84BE-4DCF-8174-7BE5DA83A604}|SisremaDeGestion\\Gym.csproj|solutionrelative:sisremadegestion\\views\\loginview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAC367B5-84BE-4DCF-8174-7BE5DA83A604}|SisremaDeGestion\\Gym.csproj|C:\\Users\\juanc\\OneDrive\\Documentos\\Escuela\\Cuarto Semestre\\visual net\\parcial 1\\Git\\VisualKgada\\Gym\\SisremaDeGestion\\sisremadegestion\\model\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAC367B5-84BE-4DCF-8174-7BE5DA83A604}|SisremaDeGestion\\Gym.csproj|solutionrelative:sisremadegestion\\model\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAC367B5-84BE-4DCF-8174-7BE5DA83A604}|SisremaDeGestion\\Gym.csproj|C:\\Users\\juanc\\OneDrive\\Documentos\\Escuela\\Cuarto Semestre\\visual net\\parcial 1\\Git\\VisualKgada\\Gym\\SisremaDeGestion\\sisremadegestion\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BAC367B5-84BE-4DCF-8174-7BE5DA83A604}|SisremaDeGestion\\Gym.csproj|solutionrelative:sisremadegestion\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAC367B5-84BE-4DCF-8174-7BE5DA83A604}|SisremaDeGestion\\Gym.csproj|C:\\Users\\juanc\\OneDrive\\Documentos\\Escuela\\Cuarto Semestre\\visual net\\parcial 1\\Git\\VisualKgada\\Gym\\SisremaDeGestion\\sisremadegestion\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BAC367B5-84BE-4DCF-8174-7BE5DA83A604}|SisremaDeGestion\\Gym.csproj|solutionrelative:sisremadegestion\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAC367B5-84BE-4DCF-8174-7BE5DA83A604}|SisremaDeGestion\\Gym.csproj|C:\\Users\\juanc\\OneDrive\\Documentos\\Escuela\\Cuarto Semestre\\visual net\\parcial 1\\Git\\VisualKgada\\Gym\\SisremaDeGestion\\sisremadegestion\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{BAC367B5-84BE-4DCF-8174-7BE5DA83A604}|SisremaDeGestion\\Gym.csproj|solutionrelative:sisremadegestion\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAC367B5-84BE-4DCF-8174-7BE5DA83A604}|SisremaDeGestion\\Gym.csproj|C:\\Users\\juanc\\OneDrive\\Documentos\\Escuela\\Cuarto Semestre\\visual net\\parcial 1\\Git\\VisualKgada\\Gym\\SisremaDeGestion\\sisremadegestion\\views\\puntodeventaview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BAC367B5-84BE-4DCF-8174-7BE5DA83A604}|SisremaDeGestion\\Gym.csproj|solutionrelative:sisremadegestion\\views\\puntodeventaview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAC367B5-84BE-4DCF-8174-7BE5DA83A604}|SisremaDeGestion\\SistemaDeGestion.csproj|C:\\Users\\juanc\\OneDrive\\Documentos\\Escuela\\Cuarto Semestre\\visual net\\parcial 1\\Git\\VisualKgada\\Gym\\SisremaDeGestion\\sisremadegestion\\views\\puntodeventaview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BAC367B5-84BE-4DCF-8174-7BE5DA83A604}|SisremaDeGestion\\SistemaDeGestion.csproj|solutionrelative:sisremadegestion\\views\\puntodeventaview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAC367B5-84BE-4DCF-8174-7BE5DA83A604}|SisremaDeGestion\\Gym.csproj|C:\\Users\\juanc\\OneDrive\\Documentos\\Escuela\\Cuarto Semestre\\visual net\\parcial 1\\Git\\VisualKgada\\Gym\\SisremaDeGestion\\sisremadegestion\\views\\loginview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BAC367B5-84BE-4DCF-8174-7BE5DA83A604}|SisremaDeGestion\\Gym.csproj|solutionrelative:sisremadegestion\\views\\loginview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAC367B5-84BE-4DCF-8174-7BE5DA83A604}|SisremaDeGestion\\SistemaDeGestion.csproj|C:\\Users\\juanc\\OneDrive\\Documentos\\Escuela\\Cuarto Semestre\\visual net\\parcial 1\\Git\\VisualKgada\\Gym\\SisremaDeGestion\\sisremadegestion\\views\\loginview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BAC367B5-84BE-4DCF-8174-7BE5DA83A604}|SisremaDeGestion\\SistemaDeGestion.csproj|solutionrelative:sisremadegestion\\views\\loginview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAC367B5-84BE-4DCF-8174-7BE5DA83A604}|SisremaDeGestion\\SistemaDeGestion.csproj|C:\\Users\\juanc\\OneDrive\\Documentos\\Escuela\\Cuarto Semestre\\visual net\\parcial 1\\Git\\VisualKgada\\Gym\\SisremaDeGestion\\sisremadegestion\\views\\inventarioview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BAC367B5-84BE-4DCF-8174-7BE5DA83A604}|SisremaDeGestion\\SistemaDeGestion.csproj|solutionrelative:sisremadegestion\\views\\inventarioview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAC367B5-84BE-4DCF-8174-7BE5DA83A604}|SisremaDeGestion\\SistemaDeGestion.csproj|C:\\Users\\juanc\\OneDrive\\Documentos\\Escuela\\Cuarto Semestre\\visual net\\parcial 1\\Git\\VisualKgada\\Gym\\SisremaDeGestion\\sisremadegestion\\viewmodel\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAC367B5-84BE-4DCF-8174-7BE5DA83A604}|SisremaDeGestion\\SistemaDeGestion.csproj|solutionrelative:sisremadegestion\\viewmodel\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAC367B5-84BE-4DCF-8174-7BE5DA83A604}|SisremaDeGestion\\SistemaDeGestion.csproj|C:\\Users\\juanc\\OneDrive\\Documentos\\Escuela\\Cuarto Semestre\\visual net\\parcial 1\\Git\\VisualKgada\\Gym\\SisremaDeGestion\\sisremadegestion\\model\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAC367B5-84BE-4DCF-8174-7BE5DA83A604}|SisremaDeGestion\\SistemaDeGestion.csproj|solutionrelative:sisremadegestion\\model\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|Gym||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LoginView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\juanc\\OneDrive\\Documentos\\Escuela\\Cuarto Semestre\\visual net\\parcial 1\\Git\\VisualKgada\\Gym\\SisremaDeGestion\\SisremaDeGestion\\Views\\LoginView.xaml.cs",
+              "RelativeDocumentMoniker": "SisremaDeGestion\\Views\\LoginView.xaml.cs",
+              "ToolTip": "C:\\Users\\juanc\\OneDrive\\Documentos\\Escuela\\Cuarto Semestre\\visual net\\parcial 1\\Git\\VisualKgada\\Gym\\SisremaDeGestion\\SisremaDeGestion\\Views\\LoginView.xaml.cs",
+              "RelativeToolTip": "SisremaDeGestion\\Views\\LoginView.xaml.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAkwBAAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-12T20:38:41.831Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\juanc\\OneDrive\\Documentos\\Escuela\\Cuarto Semestre\\visual net\\parcial 1\\Git\\VisualKgada\\Gym\\SisremaDeGestion\\SisremaDeGestion\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "SisremaDeGestion\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\juanc\\OneDrive\\Documentos\\Escuela\\Cuarto Semestre\\visual net\\parcial 1\\Git\\VisualKgada\\Gym\\SisremaDeGestion\\SisremaDeGestion\\MainWindow.xaml",
+              "RelativeToolTip": "SisremaDeGestion\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-12T20:37:17.516Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\juanc\\OneDrive\\Documentos\\Escuela\\Cuarto Semestre\\visual net\\parcial 1\\Git\\VisualKgada\\Gym\\SisremaDeGestion\\SisremaDeGestion\\App.xaml",
+              "RelativeDocumentMoniker": "SisremaDeGestion\\App.xaml",
+              "ToolTip": "C:\\Users\\juanc\\OneDrive\\Documentos\\Escuela\\Cuarto Semestre\\visual net\\parcial 1\\Git\\VisualKgada\\Gym\\SisremaDeGestion\\SisremaDeGestion\\App.xaml",
+              "RelativeToolTip": "SisremaDeGestion\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-12T20:37:14.373Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ViewModelBase.cs",
+              "DocumentMoniker": "C:\\Users\\juanc\\OneDrive\\Documentos\\Escuela\\Cuarto Semestre\\visual net\\parcial 1\\Git\\VisualKgada\\Gym\\SisremaDeGestion\\SisremaDeGestion\\ViewModel\\ViewModelBase.cs",
+              "RelativeDocumentMoniker": "SisremaDeGestion\\ViewModel\\ViewModelBase.cs",
+              "ToolTip": "C:\\Users\\juanc\\OneDrive\\Documentos\\Escuela\\Cuarto Semestre\\visual net\\parcial 1\\Git\\VisualKgada\\Gym\\SisremaDeGestion\\SisremaDeGestion\\ViewModel\\ViewModelBase.cs",
+              "RelativeToolTip": "SisremaDeGestion\\ViewModel\\ViewModelBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-12T20:35:30.667Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserModel.cs",
+              "DocumentMoniker": "C:\\Users\\juanc\\OneDrive\\Documentos\\Escuela\\Cuarto Semestre\\visual net\\parcial 1\\Git\\VisualKgada\\Gym\\SisremaDeGestion\\SisremaDeGestion\\Model\\UserModel.cs",
+              "RelativeDocumentMoniker": "SisremaDeGestion\\Model\\UserModel.cs",
+              "ToolTip": "C:\\Users\\juanc\\OneDrive\\Documentos\\Escuela\\Cuarto Semestre\\visual net\\parcial 1\\Git\\VisualKgada\\Gym\\SisremaDeGestion\\SisremaDeGestion\\Model\\UserModel.cs",
+              "RelativeToolTip": "SisremaDeGestion\\Model\\UserModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-12T20:35:30.346Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ViewModelCommand.cs",
+              "DocumentMoniker": "C:\\Users\\juanc\\OneDrive\\Documentos\\Escuela\\Cuarto Semestre\\visual net\\parcial 1\\Git\\VisualKgada\\Gym\\SisremaDeGestion\\SisremaDeGestion\\ViewModel\\ViewModelCommand.cs",
+              "RelativeDocumentMoniker": "SisremaDeGestion\\ViewModel\\ViewModelCommand.cs",
+              "ToolTip": "C:\\Users\\juanc\\OneDrive\\Documentos\\Escuela\\Cuarto Semestre\\visual net\\parcial 1\\Git\\VisualKgada\\Gym\\SisremaDeGestion\\SisremaDeGestion\\ViewModel\\ViewModelCommand.cs",
+              "RelativeToolTip": "SisremaDeGestion\\ViewModel\\ViewModelCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-18T16:46:02.616Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "InventarioView.xaml",
+              "DocumentMoniker": "C:\\Users\\juanc\\OneDrive\\Documentos\\Escuela\\Cuarto Semestre\\visual net\\parcial 1\\Git\\VisualKgada\\Gym\\SisremaDeGestion\\SisremaDeGestion\\Views\\InventarioView.xaml",
+              "RelativeDocumentMoniker": "SisremaDeGestion\\Views\\InventarioView.xaml",
+              "ToolTip": "C:\\Users\\juanc\\OneDrive\\Documentos\\Escuela\\Cuarto Semestre\\visual net\\parcial 1\\Git\\VisualKgada\\Gym\\SisremaDeGestion\\SisremaDeGestion\\Views\\InventarioView.xaml",
+              "RelativeToolTip": "SisremaDeGestion\\Views\\InventarioView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-12T20:35:30.638Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\juanc\\OneDrive\\Documentos\\Escuela\\Cuarto Semestre\\visual net\\parcial 1\\Git\\VisualKgada\\Gym\\SisremaDeGestion\\SisremaDeGestion\\App.config",
+              "RelativeDocumentMoniker": "SisremaDeGestion\\App.config",
+              "ToolTip": "C:\\Users\\juanc\\OneDrive\\Documentos\\Escuela\\Cuarto Semestre\\visual net\\parcial 1\\Git\\VisualKgada\\Gym\\SisremaDeGestion\\SisremaDeGestion\\App.config",
+              "RelativeToolTip": "SisremaDeGestion\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2026-04-12T20:37:10.939Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PuntoDeVentaView.xaml",
+              "DocumentMoniker": "C:\\Users\\juanc\\OneDrive\\Documentos\\Escuela\\Cuarto Semestre\\visual net\\parcial 1\\Git\\VisualKgada\\Gym\\SisremaDeGestion\\SisremaDeGestion\\Views\\PuntoDeVentaView.xaml",
+              "RelativeDocumentMoniker": "SisremaDeGestion\\Views\\PuntoDeVentaView.xaml",
+              "ToolTip": "C:\\Users\\juanc\\OneDrive\\Documentos\\Escuela\\Cuarto Semestre\\visual net\\parcial 1\\Git\\VisualKgada\\Gym\\SisremaDeGestion\\SisremaDeGestion\\Views\\PuntoDeVentaView.xaml",
+              "RelativeToolTip": "SisremaDeGestion\\Views\\PuntoDeVentaView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-12T20:35:30.693Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LoginView.xaml",
+              "DocumentMoniker": "C:\\Users\\juanc\\OneDrive\\Documentos\\Escuela\\Cuarto Semestre\\visual net\\parcial 1\\Git\\VisualKgada\\Gym\\SisremaDeGestion\\SisremaDeGestion\\Views\\LoginView.xaml",
+              "RelativeDocumentMoniker": "SisremaDeGestion\\Views\\LoginView.xaml",
+              "ToolTip": "C:\\Users\\juanc\\OneDrive\\Documentos\\Escuela\\Cuarto Semestre\\visual net\\parcial 1\\Git\\VisualKgada\\Gym\\SisremaDeGestion\\SisremaDeGestion\\Views\\LoginView.xaml",
+              "RelativeToolTip": "SisremaDeGestion\\Views\\LoginView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-12T20:35:30.599Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "LoginView.xaml",
+              "DocumentMoniker": "C:\\Users\\juanc\\OneDrive\\Documentos\\Escuela\\Cuarto Semestre\\visual net\\parcial 1\\Git\\VisualKgada\\Gym\\SisremaDeGestion\\SisremaDeGestion\\Views\\LoginView.xaml",
+              "RelativeDocumentMoniker": "SisremaDeGestion\\Views\\LoginView.xaml",
+              "ToolTip": "C:\\Users\\juanc\\OneDrive\\Documentos\\Escuela\\Cuarto Semestre\\visual net\\parcial 1\\Git\\VisualKgada\\Gym\\SisremaDeGestion\\SisremaDeGestion\\Views\\LoginView.xaml",
+              "RelativeToolTip": "SisremaDeGestion\\Views\\LoginView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-23T00:40:41.559Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "InventarioView.xaml",
+              "DocumentMoniker": "C:\\Users\\juanc\\OneDrive\\Documentos\\Escuela\\Cuarto Semestre\\visual net\\parcial 1\\Git\\VisualKgada\\Gym\\SisremaDeGestion\\SisremaDeGestion\\Views\\InventarioView.xaml",
+              "RelativeDocumentMoniker": "SisremaDeGestion\\Views\\InventarioView.xaml",
+              "ToolTip": "C:\\Users\\juanc\\OneDrive\\Documentos\\Escuela\\Cuarto Semestre\\visual net\\parcial 1\\Git\\VisualKgada\\Gym\\SisremaDeGestion\\SisremaDeGestion\\Views\\InventarioView.xaml",
+              "RelativeToolTip": "SisremaDeGestion\\Views\\InventarioView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-23T00:36:41.24Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PuntoDeVentaView.xaml",
+              "DocumentMoniker": "C:\\Users\\juanc\\OneDrive\\Documentos\\Escuela\\Cuarto Semestre\\visual net\\parcial 1\\Git\\VisualKgada\\Gym\\SisremaDeGestion\\SisremaDeGestion\\Views\\PuntoDeVentaView.xaml",
+              "RelativeDocumentMoniker": "SisremaDeGestion\\Views\\PuntoDeVentaView.xaml",
+              "ToolTip": "C:\\Users\\juanc\\OneDrive\\Documentos\\Escuela\\Cuarto Semestre\\visual net\\parcial 1\\Git\\VisualKgada\\Gym\\SisremaDeGestion\\SisremaDeGestion\\Views\\PuntoDeVentaView.xaml",
+              "RelativeToolTip": "SisremaDeGestion\\Views\\PuntoDeVentaView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-23T00:34:32.618Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ViewModelBase.cs",
+              "DocumentMoniker": "C:\\Users\\juanc\\OneDrive\\Documentos\\Escuela\\Cuarto Semestre\\visual net\\parcial 1\\Git\\VisualKgada\\Gym\\SisremaDeGestion\\SisremaDeGestion\\ViewModel\\ViewModelBase.cs",
+              "RelativeDocumentMoniker": "SisremaDeGestion\\ViewModel\\ViewModelBase.cs",
+              "ToolTip": "C:\\Users\\juanc\\OneDrive\\Documentos\\Escuela\\Cuarto Semestre\\visual net\\parcial 1\\Git\\VisualKgada\\Gym\\SisremaDeGestion\\SisremaDeGestion\\ViewModel\\ViewModelBase.cs",
+              "RelativeToolTip": "SisremaDeGestion\\ViewModel\\ViewModelBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-18T16:36:46.81Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UserModel.cs",
+              "DocumentMoniker": "C:\\Users\\juanc\\OneDrive\\Documentos\\Escuela\\Cuarto Semestre\\visual net\\parcial 1\\Git\\VisualKgada\\Gym\\SisremaDeGestion\\SisremaDeGestion\\Model\\UserModel.cs",
+              "RelativeDocumentMoniker": "SisremaDeGestion\\Model\\UserModel.cs",
+              "ToolTip": "C:\\Users\\juanc\\OneDrive\\Documentos\\Escuela\\Cuarto Semestre\\visual net\\parcial 1\\Git\\VisualKgada\\Gym\\SisremaDeGestion\\SisremaDeGestion\\Model\\UserModel.cs",
+              "RelativeToolTip": "SisremaDeGestion\\Model\\UserModel.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAzwBAAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-18T16:42:19.367Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Gym",
+              "DocumentMoniker": "C:\\Users\\juanc\\OneDrive\\Documentos\\Escuela\\Cuarto Semestre\\visual net\\parcial 1\\Git\\VisualKgada\\Gym\\SisremaDeGestion\\SisremaDeGestion\\Gym.csproj",
+              "RelativeDocumentMoniker": "SisremaDeGestion\\Gym.csproj",
+              "ToolTip": "C:\\Users\\juanc\\OneDrive\\Documentos\\Escuela\\Cuarto Semestre\\visual net\\parcial 1\\Git\\VisualKgada\\Gym\\SisremaDeGestion\\SisremaDeGestion\\Gym.csproj",
+              "RelativeToolTip": "SisremaDeGestion\\Gym.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-04-12T20:35:31.769Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
