@@ -1,15 +1,16 @@
 ﻿using Gym2.Model;
 using Microsoft.Win32;
-using ProyectoEjemploEsco.Model;
-using ProyectoEjemploEsco.Repositories;
-using ProyectoEjemploEsco.View;
+using Gym2.Commands;
+using Gym2.Model;
+using Gym2.Repositories;
+using Gym2.Views;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Windows;
 using System.Windows.Input;
 
-namespace ProyectoEjemploEsco.ViewModel
+namespace Gym2.ViewModel
 {
     public class ManejoUsuariosViewModel : ViewModelBase
     {
@@ -72,7 +73,7 @@ namespace ProyectoEjemploEsco.ViewModel
         private void ExecuteAddUser(object obj)
         {
             // Crear nueva ventana
-            var registroView = new RegistroView();
+            var registroView = new Registro();
             // Asignarla como ventana principal (Opcional, según lógica de navegación)
             Application.Current.MainWindow = registroView;
             // Mostrarla
@@ -81,7 +82,7 @@ namespace ProyectoEjemploEsco.ViewModel
 
         private void ExecuteEditUser(object obj)
         {
-            var user = obj as UserModel;
+            var user = obj as UserModel;    
             if (user == null)
             {
                 MessageBox.Show("Seleccione un usuario válido.");

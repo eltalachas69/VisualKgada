@@ -14,5 +14,6 @@ namespace Gym2.Model
         void Update(UserModel userModel);
         void Delete(UserModel userModel);
         UserModel GetByUsername(string username);
+        IEnumerable<UserModel> GetAllUsers();
     }
 }

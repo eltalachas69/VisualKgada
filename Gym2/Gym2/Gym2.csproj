@@ -55,15 +55,19 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Commands\ViewModelCommand.cs" />
     <Compile Include="Converters\StringToVisibilityConverter.cs" />
     <Compile Include="CustomControls\customControls.xaml.cs">
       <DependentUpon>customControls.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Repositories\RepositoryBase.cs" />
+    <Compile Include="Repositories\UserRepository.cs" />
     <Compile Include="ViewModel\MainViewModel.cs" />
-    <Compile Include="ViewModel\ManejoUsuariosViewModels.cs" />
+    <Compile Include="ViewModel\ManejoUsuarioViewModel.cs" />
     <Compile Include="ViewModel\RegistroViewModel.cs" />
-    <Compile Include="Views\ManejoUsuarioViewModel.xaml.cs">
-      <DependentUpon>ManejoUsuarioViewModel.xaml</DependentUpon>
+    <Compile Include="ViewModel\ViewModelBase.cs" />
+    <Compile Include="Views\ManejoUsuarios.xaml.cs">
+      <DependentUpon>ManejoUsuarios.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\Registro.xaml.cs">
       <DependentUpon>Registro.xaml</DependentUpon>
@@ -84,7 +88,7 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="Views\ManejoUsuarioViewModel.xaml">
+    <Page Include="Views\ManejoUsuarios.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -121,6 +125,8 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Resource Include="Images\alien.jpeg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

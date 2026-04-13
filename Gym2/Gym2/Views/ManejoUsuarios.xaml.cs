@@ -8,19 +8,15 @@ using System.Windows.Controls;
 using System.Windows.Data;
 using System.Windows.Documents;
 using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Shapes;
+using System.Windows;
 
 namespace Gym2.Views
 {
-    /// <summary>
-    /// Lógica de interacción para ManejoUsuarioViewModel.xaml
-    /// </summary>
-    public partial class ManejoUsuarioViewModel : Window
+    public partial class ManejoUsuarios : Window
     {
-        public ManejoUsuarioViewModel()
+        public ManejoUsuarios()
         {
+            // Ahora sí reconocerá este método porque el nombre de la clase coincide con el XAML
             InitializeComponent();
         }
     }

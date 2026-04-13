@@ -1,6 +1,6 @@
 ﻿using Gym2.Model;
-using ProyectoEjemploEsco.Model;
-using ProyectoEjemploEsco.Repositories;
+using Gym2.Model;
+using Gym2.Repositories;
 using System;
 using System;
 using System.Collections.Generic;
@@ -9,11 +9,12 @@ using System.Linq;
 using System.Security;
 using System.Text;
 using System.Threading;
+using Gym2.Commands;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Input;
 
-namespace ProyectoEjemploEsco.ViewModel
+namespace Gym2.ViewModel
 {
     public class RegistroViewModel : ViewModelBase
     {
