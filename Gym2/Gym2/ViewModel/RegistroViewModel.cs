@@ -1,50 +1,149 @@
-﻿using System;
-using System.ComponentModel;
-using System.Runtime.CompilerServices;
+﻿using Gym2.Model;
+using ProyectoEjemploEsco.Model;
+using ProyectoEjemploEsco.Repositories;
+using System;
+using System;
+using System.Collections.Generic;
+using System.Collections.ObjectModel;
+using System.Linq;
+using System.Security;
+using System.Text;
+using System.Threading;
+using System.Threading.Tasks;
+using System.Windows;
 using System.Windows.Input;
-using Gym2.Model; // Asegúrate de referenciar tu carpeta Model
 
-namespace Gym2.ViewModel
+namespace ProyectoEjemploEsco.ViewModel
 {
-    public class RegistroViewModel : INotifyPropertyChanged
+    public class RegistroViewModel : ViewModelBase
     {
-        // Propiedades privadas para almacenar los datos del formulario
-        private string _username;
-        private string _password;
-        private string _email;
+        private readonly RepositoryBase repositoryBase;
 
-        // Propiedades públicas que se enlazarán (Binding) en el XAML
-        public string Username
+        private ObservableCollection<UserModel> _users;
+        private UserModel _user;
+        private IUserRepository userRepository;
+
+        public UserModel User
         {
-            get => _username;
-            set { _username = value; OnPropertyChanged(); }
+            get => _user;
+            set
+            {
+                _user = value;
+                OnPropertyChanged(nameof(User));
+            }
         }
 
-        public string Password
+        public ObservableCollection<UserModel> Users
         {
-            get => _password;
-            set { _password = value; OnPropertyChanged(); }
+            get => _users;
+            set
+            {
+                if (_users != value)
+                {
+                    _users = value;
+                    OnPropertyChanged(nameof(Users));
+                }
+            }
         }
-
-        public string Email
-        {
-            get => _email;
-            set { _email = value; OnPropertyChanged(); }
-        }
-
-        // Comando para la acción de registrar
-        public ICommand RegistrarCommand { get; }
 
         public RegistroViewModel()
         {
-            // Aquí inicializarías el comando, por ejemplo, conectándolo a un método GuardarUsuario
+            userRepository = new UserRepository();
+            _user = new UserModel();
         }
 
-        // Evento necesario para que la vista se entere cuando cambian los datos
-        public event PropertyChangedEventHandler PropertyChanged;
-        protected void OnPropertyChanged([CallerMemberName] string name = null)
+        public ICommand AddCommand
         {
-            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(name));
+            get
+            {
+                return new ViewModelCommand(AddExecute, AddCanExecute);
+            }
+        }
+
+        private void AddExecute(object user)
+        {
+            // Validar campos vacíos
+            if (string.IsNullOrWhiteSpace(User.Username) || string.IsNullOrWhiteSpace(User?.Username) ||
+                string.IsNullOrWhiteSpace(User.Name) || string.IsNullOrWhiteSpace(User.LastName) ||
+                string.IsNullOrWhiteSpace(User.Email))
+            {
+                MessageBox.Show("Por favor, completa todos los campos antes de guardar.",
+                    "Campos incompletos", MessageBoxButton.OK, MessageBoxImage.Warning);
+                return;
+            }
+
+            // Validar que las contraseñas coincidan
+            if (User.Password != User.ConfirmPassword)
+            {
+                MessageBox.Show("Las contraseñas no coinciden. Por favor, verifica.", "Error de contraseña",
+                    MessageBoxButton.OK, MessageBoxImage.Error);
+                return;
+            }
+
+            // Validar si el username ya existe usando GetByUsername()
+            var existingUser = userRepository.GetByUsername(User.Username);
+            if (existingUser != null)
+            {
+                MessageBox.Show("El nombre de usuario ya existe. Por favor, elige otro.", "Usuario duplicado",
+                    MessageBoxButton.OK, MessageBoxImage.Error);
+                return;
+            }
+
+            // Si pasa las validaciones, se añade el usuario
+            User.Id = Guid.NewGuid().ToString();
+            userRepository.Add(User);
+            MessageBox.Show("Usuario añadido correctamente.", "Éxito", MessageBoxButton.OK,
+                MessageBoxImage.Information);
+        }
+
+        private bool AddCanExecute(object user)
+        {
+            // Deshabilita el botón si los campos están vacíos
+            return !string.IsNullOrWhiteSpace(User?.Username) && !string.IsNullOrWhiteSpace(User?.Password) &&
+                   !string.IsNullOrWhiteSpace(User?.Name) && !string.IsNullOrWhiteSpace(User?.LastName) &&
+                   !string.IsNullOrWhiteSpace(User?.Email);
+        }
+
+        public ICommand DeleteCommand
+        {
+            get
+            {
+                return new ViewModelCommand(DeleteExecute, DeleteCanExecute);
+            }
+        }
+
+        private void DeleteExecute(Object user)
+        {
+            userRepository.Delete(User); // Borra el usuario usando el Id
+                                         // Actualizar la lista de usuarios si es necesario
+                                         // Users = userRepository.Get();
+        }
+
+        private bool DeleteCanExecute(Object user)
+        {
+            // Verifica que el objeto user no sea nulo y tenga un Id válido
+            return true;
+        }
+
+        public ICommand EditCommand
+        {
+            get
+            {
+                return new ViewModelCommand(EditExecute, EditCanExecute);
+            }
+        }
+
+        private void EditExecute(Object user)
+        {
+            userRepository.Update(User); // Borra el usuario usando el Id
+                                         // Actualizar la lista de usuarios si es necesario
+                                         // Users = userRepository.Get();
+        }
+
+        private bool EditCanExecute(Object user)
+        {
+            // Verifica que el objeto user no sea nulo y tenga un Id válido
+            return true;
         }
     }
 }
