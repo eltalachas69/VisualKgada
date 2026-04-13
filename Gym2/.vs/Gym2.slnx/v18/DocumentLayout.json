@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\xxkry\\OneDrive\\Escritorio\\Universidad\\.NET\\VisualKgada\\Gym2\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{64BDB086-5E9B-49EF-BF98-27E203F68E87}|Gym2\\Gym2.csproj|C:\\Users\\xxkry\\OneDrive\\Escritorio\\Universidad\\.NET\\VisualKgada\\Gym2\\gym2\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64BDB086-5E9B-49EF-BF98-27E203F68E87}|Gym2\\Gym2.csproj|solutionrelative:gym2\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{64BDB086-5E9B-49EF-BF98-27E203F68E87}|Gym2\\Gym2.csproj|c:\\users\\xxkry\\onedrive\\escritorio\\universidad\\.net\\visualkgada\\gym2\\gym2\\views\\registro.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{64BDB086-5E9B-49EF-BF98-27E203F68E87}|Gym2\\Gym2.csproj|solutionrelative:gym2\\views\\registro.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
@@ -41,10 +45,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{64BDB086-5E9B-49EF-BF98-27E203F68E87}|Gym2\\Gym2.csproj|C:\\Users\\xxkry\\OneDrive\\Escritorio\\Universidad\\.NET\\VisualKgada\\Gym2\\gym2\\views\\manejousuarios.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{64BDB086-5E9B-49EF-BF98-27E203F68E87}|Gym2\\Gym2.csproj|solutionrelative:gym2\\views\\manejousuarios.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{64BDB086-5E9B-49EF-BF98-27E203F68E87}|Gym2\\Gym2.csproj|C:\\Users\\xxkry\\OneDrive\\Escritorio\\Universidad\\.NET\\VisualKgada\\Gym2\\gym2\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{64BDB086-5E9B-49EF-BF98-27E203F68E87}|Gym2\\Gym2.csproj|solutionrelative:gym2\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{64BDB086-5E9B-49EF-BF98-27E203F68E87}|Gym2\\Gym2.csproj|C:\\Users\\xxkry\\OneDrive\\Escritorio\\Universidad\\.NET\\VisualKgada\\Gym2\\gym2\\viewmodel\\registroviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -90,34 +90,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ManejoUsuarios.xaml",
-              "DocumentMoniker": "C:\\Users\\xxkry\\OneDrive\\Escritorio\\Universidad\\.NET\\VisualKgada\\Gym2\\Gym2\\Views\\ManejoUsuarios.xaml",
-              "RelativeDocumentMoniker": "Gym2\\Views\\ManejoUsuarios.xaml",
-              "ToolTip": "C:\\Users\\xxkry\\OneDrive\\Escritorio\\Universidad\\.NET\\VisualKgada\\Gym2\\Gym2\\Views\\ManejoUsuarios.xaml",
-              "RelativeToolTip": "Gym2\\Views\\ManejoUsuarios.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-04-13T06:25:32.305Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "App.xaml",
-              "DocumentMoniker": "C:\\Users\\xxkry\\OneDrive\\Escritorio\\Universidad\\.NET\\VisualKgada\\Gym2\\Gym2\\App.xaml",
-              "RelativeDocumentMoniker": "Gym2\\App.xaml",
-              "ToolTip": "C:\\Users\\xxkry\\OneDrive\\Escritorio\\Universidad\\.NET\\VisualKgada\\Gym2\\Gym2\\App.xaml",
-              "RelativeToolTip": "Gym2\\App.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-04-13T03:35:54.587Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "RepositoryBase.cs",
               "DocumentMoniker": "C:\\Users\\xxkry\\OneDrive\\Escritorio\\Universidad\\.NET\\VisualKgada\\Gym2\\Gym2\\Repositories\\RepositoryBase.cs",
               "RelativeDocumentMoniker": "Gym2\\Repositories\\RepositoryBase.cs",
@@ -129,7 +106,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "UserModel.cs",
               "DocumentMoniker": "C:\\Users\\xxkry\\OneDrive\\Escritorio\\Universidad\\.NET\\VisualKgada\\Gym2\\Gym2\\Model\\UserModel.cs",
               "RelativeDocumentMoniker": "Gym2\\Model\\UserModel.cs",
@@ -142,18 +119,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "App.config",
-              "DocumentMoniker": "C:\\Users\\xxkry\\OneDrive\\Escritorio\\Universidad\\.NET\\VisualKgada\\Gym2\\Gym2\\App.config",
-              "RelativeDocumentMoniker": "Gym2\\App.config",
-              "ToolTip": "C:\\Users\\xxkry\\OneDrive\\Escritorio\\Universidad\\.NET\\VisualKgada\\Gym2\\Gym2\\App.config",
-              "RelativeToolTip": "Gym2\\App.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2026-04-13T03:56:11.13Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "Registro.xaml",
               "DocumentMoniker": "C:\\Users\\xxkry\\OneDrive\\Escritorio\\Universidad\\.NET\\VisualKgada\\Gym2\\Gym2\\Views\\Registro.xaml",
               "RelativeDocumentMoniker": "Gym2\\Views\\Registro.xaml",
@@ -165,7 +130,30 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
+              "Title": "ManejoUsuarios.xaml",
+              "DocumentMoniker": "C:\\Users\\xxkry\\OneDrive\\Escritorio\\Universidad\\.NET\\VisualKgada\\Gym2\\Gym2\\Views\\ManejoUsuarios.xaml",
+              "RelativeDocumentMoniker": "Gym2\\Views\\ManejoUsuarios.xaml",
+              "ToolTip": "C:\\Users\\xxkry\\OneDrive\\Escritorio\\Universidad\\.NET\\VisualKgada\\Gym2\\Gym2\\Views\\ManejoUsuarios.xaml",
+              "RelativeToolTip": "Gym2\\Views\\ManejoUsuarios.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-13T06:25:32.305Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\xxkry\\OneDrive\\Escritorio\\Universidad\\.NET\\VisualKgada\\Gym2\\Gym2\\App.config",
+              "RelativeDocumentMoniker": "Gym2\\App.config",
+              "ToolTip": "C:\\Users\\xxkry\\OneDrive\\Escritorio\\Universidad\\.NET\\VisualKgada\\Gym2\\Gym2\\App.config",
+              "RelativeToolTip": "Gym2\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2026-04-13T03:56:11.13Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "MainViewModel.cs",
               "DocumentMoniker": "C:\\Users\\xxkry\\OneDrive\\Escritorio\\Universidad\\.NET\\VisualKgada\\Gym2\\Gym2\\ViewModel\\MainViewModel.cs",
               "RelativeDocumentMoniker": "Gym2\\ViewModel\\MainViewModel.cs",
@@ -177,7 +165,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\xxkry\\OneDrive\\Escritorio\\Universidad\\.NET\\VisualKgada\\Gym2\\Gym2\\MainWindow.xaml",
               "RelativeDocumentMoniker": "Gym2\\MainWindow.xaml",
@@ -188,7 +176,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "ManejoUsuarioViewModel.cs",
               "DocumentMoniker": "C:\\Users\\xxkry\\OneDrive\\Escritorio\\Universidad\\.NET\\VisualKgada\\Gym2\\Gym2\\ViewModel\\ManejoUsuarioViewModel.cs",
               "RelativeDocumentMoniker": "Gym2\\ViewModel\\ManejoUsuarioViewModel.cs",
@@ -200,19 +188,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 0,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "C:\\Users\\xxkry\\OneDrive\\Escritorio\\Universidad\\.NET\\VisualKgada\\Gym2\\Gym2\\Repositories\\UserRepository.cs",
               "RelativeDocumentMoniker": "Gym2\\Repositories\\UserRepository.cs",
               "ToolTip": "C:\\Users\\xxkry\\OneDrive\\Escritorio\\Universidad\\.NET\\VisualKgada\\Gym2\\Gym2\\Repositories\\UserRepository.cs",
               "RelativeToolTip": "Gym2\\Repositories\\UserRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAAGoAAAAAAAAAAAAEwGAAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-13T06:56:51.875Z"
+              "WhenOpened": "2026-04-13T06:56:51.875Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 3,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\xxkry\\OneDrive\\Escritorio\\Universidad\\.NET\\VisualKgada\\Gym2\\Gym2\\App.xaml",
+              "RelativeDocumentMoniker": "Gym2\\App.xaml",
+              "ToolTip": "C:\\Users\\xxkry\\OneDrive\\Escritorio\\Universidad\\.NET\\VisualKgada\\Gym2\\Gym2\\App.xaml",
+              "RelativeToolTip": "Gym2\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-13T03:35:54.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "ManejoUsuarios.xaml.cs",
               "DocumentMoniker": "C:\\Users\\xxkry\\OneDrive\\Escritorio\\Universidad\\.NET\\VisualKgada\\Gym2\\Gym2\\Views\\ManejoUsuarios.xaml.cs",
               "RelativeDocumentMoniker": "Gym2\\Views\\ManejoUsuarios.xaml.cs",

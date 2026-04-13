@@ -105,6 +105,13 @@
                     </Grid>
 
                     <Grid Margin="0,4">
+                        <TextBox x:Name="txtConfirmPassword" Text="{Binding User.ConfirmPassword, UpdateSourceTrigger=PropertyChanged}"
+                                     FontSize="13" Foreground="White" BorderBrush="DarkGray" BorderThickness="0,0,0,2" Height="28" Background="Transparent" Padding="5,0"/>
+                        <TextBlock Text="Confirmar Contraseña" Foreground="DarkGray" IsHitTestVisible="False" VerticalAlignment="Center" Margin="5,0"
+                                       Visibility="{Binding Text, ElementName=txtConfirmPassword, Converter={StaticResource StringToVisibilityConverter}}"/>
+                    </Grid>
+
+                    <Grid Margin="0,4">
                         <TextBox x:Name="txtNombre" Text="{Binding User.Name, UpdateSourceTrigger=PropertyChanged}"
                                  FontSize="13" Foreground="White" BorderBrush="DarkGray" BorderThickness="0,0,0,2" Height="28" Background="Transparent" Padding="5,0"/>
                         <TextBlock Text="Nombre" Foreground="DarkGray" IsHitTestVisible="False" VerticalAlignment="Center" Margin="5,0"
