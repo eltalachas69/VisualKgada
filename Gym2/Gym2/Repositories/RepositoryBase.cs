@@ -8,8 +8,8 @@ namespace Gym2.Repositories
 
         public RepositoryBase()
         {
-         
-            connectionString = "Server=.;Database=GymDB;Trusted_Connection=True;";
+        
+            string connectionString = "Server=.\SQLEXPRESS; Database=GymDB; Integrated Security=True;";
         }
 
         protected SqlConnection GetConnection()
