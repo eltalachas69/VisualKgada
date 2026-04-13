@@ -60,7 +60,11 @@
       <DependentUpon>customControls.xaml</DependentUpon>
     </Compile>
     <Compile Include="ViewModel\MainViewModel.cs" />
+    <Compile Include="ViewModel\ManejoUsuariosViewModels.cs" />
     <Compile Include="ViewModel\RegistroViewModel.cs" />
+    <Compile Include="Views\ManejoUsuarioViewModel.xaml.cs">
+      <DependentUpon>ManejoUsuarioViewModel.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\Registro.xaml.cs">
       <DependentUpon>Registro.xaml</DependentUpon>
     </Compile>
@@ -80,6 +84,10 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Views\ManejoUsuarioViewModel.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Views\Registro.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>

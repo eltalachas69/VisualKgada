@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\xxkry\\OneDrive\\Escritorio\\Universidad\\.NET\\VisualKgada\\Gym2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{64BDB086-5E9B-49EF-BF98-27E203F68E87}|Gym2\\Gym2.csproj|C:\\Users\\xxkry\\OneDrive\\Escritorio\\Universidad\\.NET\\VisualKgada\\Gym2\\gym2\\viewmodel\\registroviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{64BDB086-5E9B-49EF-BF98-27E203F68E87}|Gym2\\Gym2.csproj|c:\\users\\xxkry\\onedrive\\escritorio\\universidad\\.net\\visualkgada\\gym2\\gym2\\viewmodel\\registroviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{64BDB086-5E9B-49EF-BF98-27E203F68E87}|Gym2\\Gym2.csproj|solutionrelative:gym2\\viewmodel\\registroviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{64BDB086-5E9B-49EF-BF98-27E203F68E87}|Gym2\\Gym2.csproj|c:\\users\\xxkry\\onedrive\\escritorio\\universidad\\.net\\visualkgada\\gym2\\gym2\\views\\registro.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{64BDB086-5E9B-49EF-BF98-27E203F68E87}|Gym2\\Gym2.csproj|C:\\Users\\xxkry\\OneDrive\\Escritorio\\Universidad\\.NET\\VisualKgada\\Gym2\\gym2\\views\\registro.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{64BDB086-5E9B-49EF-BF98-27E203F68E87}|Gym2\\Gym2.csproj|solutionrelative:gym2\\views\\registro.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
@@ -69,8 +69,7 @@
               "ToolTip": "C:\\Users\\xxkry\\OneDrive\\Escritorio\\Universidad\\.NET\\VisualKgada\\Gym2\\Gym2\\Views\\Registro.xaml",
               "RelativeToolTip": "Gym2\\Views\\Registro.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-04-13T04:12:55.795Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-13T04:12:55.795Z"
             },
             {
               "$type": "Document",
@@ -116,8 +115,7 @@
               "ToolTip": "C:\\Users\\xxkry\\OneDrive\\Escritorio\\Universidad\\.NET\\VisualKgada\\Gym2\\Gym2\\App.xaml",
               "RelativeToolTip": "Gym2\\App.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-04-13T03:35:54.587Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-13T03:35:54.587Z"
             },
             {
               "$type": "Document",
