@@ -1,0 +1,92 @@
+﻿<Window x:Class="ProyectoEjemploEsco.View.ManejoUsuariosView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:vm="clr-namespace:ProyectoEjemploEsco.ViewModel"
+        mc:Ignorable="d"
+        Title="Gestión de Usuarios" Height="600" Width="1200"
+        Background="#F4F6F9"
+        WindowStartupLocation="CenterScreen">
+
+    <Window.DataContext>
+        <vm:ManejoUsuariosViewModel/>
+    </Window.DataContext>
+
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <Border Background="#2D3E50" CornerRadius="10" Padding="15" Margin="0,0,0,15">
+            <DockPanel>
+                <TextBlock Text="Gestión de Usuarios" Foreground="White"
+                           FontSize="22" FontWeight="Bold" DockPanel.Dock="Left"/>
+
+                <Button Content="Agregar" Command="{Binding AddCommand}"
+                        Background="#4CAF50" Foreground="White"
+                        Padding="10,5" Margin="10,0,0,0" Width="150" DockPanel.Dock="Right"/>
+
+                <Button Content="Refrescar" Command="{Binding RefreshCommand}"
+                        Background="#03A9F4" Foreground="White"
+                        Padding="10,5" Margin="10,0,0,0" Width="150" DockPanel.Dock="Right"/>
+            </DockPanel>
+        </Border>
+
+        <DataGrid Grid.Row="1" ItemsSource="{Binding Users}" SelectedItem="{Binding SelectedUser}"
+                  AutoGenerateColumns="False" HeadersVisibility="Column" CanUserAddRows="False"
+                  RowHeight="35" AlternatingRowBackground="#F9F9F9"
+                  SelectionMode="Single" GridLinesVisibility="None">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Id" Binding="{Binding Id}" />
+                <DataGridTextColumn Header="User" Binding="{Binding Username}" Width="*"/>
+                <DataGridTextColumn Header="Lastname" Binding="{Binding LastName}" Width="*"/>
+                <DataGridTextColumn Header="Correo" Binding="{Binding Email}" Width="2*"/>
+
+                <DataGridTemplateColumn Header="Acciones" Width="200">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                                <Button Content="Eliminar"
+                                        Command="{Binding DataContext.DeleteCommand, RelativeSource={RelativeSource AncestorType=DataGrid}}"
+                                        CommandParameter="{Binding}" Background="#F44336"
+                                        Foreground="White" Width="80" Margin="2"/>
+                            </StackPanel>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,15,0,0">
+
+            <StackPanel Orientation="Vertical" Margin="5">
+                <TextBlock Text="Usuario" FontWeight="Bold" />
+                <TextBox Width="200" Text="{Binding SelectedUser.Username, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+            </StackPanel>
+
+            <StackPanel Orientation="Vertical" Margin="5">
+                <TextBlock Text="Correo" FontWeight="Bold" />
+                <TextBox Width="250" Text="{Binding SelectedUser.Email, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+            </StackPanel>
+
+            <StackPanel Orientation="Vertical" Margin="5">
+                <TextBlock Text="Nombre" FontWeight="Bold" />
+                <TextBox Width="150" Text="{Binding SelectedUser.Name, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+            </StackPanel>
+
+            <StackPanel Orientation="Vertical" Margin="5">
+                <TextBlock Text="Apellido" FontWeight="Bold" />
+                <TextBox Width="150" Text="{Binding SelectedUser.LastName, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+            </StackPanel>
+
+            <Button Content="Guardar cambios" Command="{Binding EditCommand}"
+                    CommandParameter="{Binding SelectedUser}"
+                    Background="#2196F3" Foreground="White" Padding="10,5" Width="150"
+                    VerticalAlignment="Bottom" Margin="5"/>
+
+        </StackPanel>
+    </Grid>
+</Window>
