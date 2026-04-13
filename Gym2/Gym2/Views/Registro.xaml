@@ -16,6 +16,10 @@
         <conv:StringToVisibilityConverter x:Key="StringToVisibilityConverter"/>
     </Window.Resources>
 
+    <Window.DataContext>
+        <viewModel:RegistroViewModel/>
+    </Window.DataContext>
+
     <Border CornerRadius="12">
         <Border.Background>
             <ImageBrush ImageSource="/Images/alien.jpeg" Stretch="UniformToFill"/>
@@ -24,17 +28,17 @@
         <Border CornerRadius="10" BorderThickness="2" Opacity="0.95">
             <Border.BorderBrush>
                 <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
-                    <GradientStop Color="#462AD8" Offset="0"/>
-                    <GradientStop Color="#DA34AE" Offset="0.75"/>
-                    <GradientStop Color="#8A16C1" Offset="1"/>
+                    <GradientStop Color="#FF462AD8" Offset="0"/>
+                    <GradientStop Color="#FFDA34AE" Offset="0.75"/>
+                    <GradientStop Color="#FF8A16C1" Offset="1"/>
                 </LinearGradientBrush>
             </Border.BorderBrush>
 
             <Border.Background>
                 <LinearGradientBrush StartPoint="0,1" EndPoint="1,1">
-                    <GradientStop Color="#1A1A40" Offset="0"/>
-                    <GradientStop Color="#1A1A40" Offset="0.65"/>
-                    <GradientStop Color="#37377A" Offset="1"/>
+                    <GradientStop Color="DarkBlue" Offset="0"/>
+                    <GradientStop Color="DarkBlue" Offset="0.65"/>
+                    <GradientStop Color="LightBlue" Offset="1"/>
                 </LinearGradientBrush>
             </Border.Background>
 
@@ -52,15 +56,15 @@
                         <ColumnDefinition Width="5"/>
                     </Grid.ColumnDefinitions>
 
-                    <TextBlock Text="REGISTRO" Foreground="AntiqueWhite" FontSize="12" 
+                    <TextBlock Text="REGISTRO" Foreground="AntiqueWhite" FontSize="15" 
                                FontFamily="Montserrat" Grid.Column="0" 
                                VerticalAlignment="Center" Margin="10,0,0,0"/>
 
                     <Button x:Name="btnMinimizar" Content="-" Foreground="White" FontSize="16" 
-                            Grid.Column="1" Click="btnMinimizar_Click" Cursor="Hand">
+                            Grid.Column="1" Click="btnMinimizar_Click" Cursor="Hand" Background="#28AEED" BorderThickness="0">
                         <Button.Template>
                             <ControlTemplate TargetType="Button">
-                                <Border Width="18" Height="18" CornerRadius="9" Background="#28AEED">
+                                <Border Width="18" Height="18" CornerRadius="9" Background="{TemplateBinding Background}">
                                     <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="Center"/>
                                 </Border>
                             </ControlTemplate>
@@ -68,10 +72,10 @@
                     </Button>
 
                     <Button x:Name="btnClose" Content="x" Foreground="White" 
-                            Grid.Column="2" Click="btnClose_Click" Cursor="Hand">
+                            Grid.Column="2" Click="btnClose_Click" Cursor="Hand" Background="#DA34AD" BorderThickness="0">
                         <Button.Template>
                             <ControlTemplate TargetType="Button">
-                                <Border Width="18" Height="18" CornerRadius="9" Background="#DA34AD">
+                                <Border Width="18" Height="18" CornerRadius="9" Background="{TemplateBinding Background}">
                                     <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="Center"/>
                                 </Border>
                             </ControlTemplate>
@@ -80,30 +84,51 @@
                 </Grid>
 
                 <StackPanel Width="280" Grid.Row="1" Orientation="Vertical" Margin="0,20,0,0" HorizontalAlignment="Center">
+
                     <Image Source="/Images/alien.jpeg" Width="80" Height="80" Margin="0,0,0,10"/>
 
-                    <TextBlock Text="Crear nueva cuenta" Foreground="White" FontSize="18" 
-                               FontWeight="Medium" HorizontalAlignment="Center" Margin="0,0,0,15"/>
+                    <TextBlock Text="Crear nueva cuenta" Foreground="White" FontSize="20" 
+                               FontWeight="Medium" HorizontalAlignment="Center" Margin="0,0,0,12"/>
 
-                    <Grid Margin="0,5">
+                    <Grid Margin="0,4">
                         <TextBox x:Name="txtUsuario" Text="{Binding User.Username, UpdateSourceTrigger=PropertyChanged}"
-                                 FontSize="13" Foreground="White" CaretBrush="White"
-                                 BorderBrush="DarkGray" BorderThickness="0,0,0,1" Height="28" 
-                                 VerticalContentAlignment="Center" Background="Transparent"/>
-                        <TextBlock Text="Usuario" Foreground="Gray" IsHitTestVisible="False" 
-                                   VerticalAlignment="Center" Visibility="{Binding Text, ElementName=txtUsuario, Converter={StaticResource StringToVisibilityConverter}}"/>
+                                 FontSize="13" Foreground="White" BorderBrush="DarkGray" BorderThickness="0,0,0,2" Height="28" Background="Transparent" Padding="5,0"/>
+                        <TextBlock Text="Usuario" Foreground="DarkGray" IsHitTestVisible="False" VerticalAlignment="Center" Margin="5,0"
+                                   Visibility="{Binding Text, ElementName=txtUsuario, Converter={StaticResource StringToVisibilityConverter}}"/>
                     </Grid>
 
-                    <Grid Margin="0,5">
+                    <Grid Margin="0,4">
                         <TextBox x:Name="txtPassword" Text="{Binding User.Password, UpdateSourceTrigger=PropertyChanged}"
-                                 FontSize="13" Foreground="White" BorderBrush="DarkGray" BorderThickness="0,0,0,1" 
-                                 Height="28" VerticalContentAlignment="Center" Background="Transparent"/>
-                        <TextBlock Text="Contraseña" Foreground="Gray" IsHitTestVisible="False" 
-                                   VerticalAlignment="Center" Visibility="{Binding Text, ElementName=txtPassword, Converter={StaticResource StringToVisibilityConverter}}"/>
+                                 FontSize="13" Foreground="White" BorderBrush="DarkGray" BorderThickness="0,0,0,2" Height="28" Background="Transparent" Padding="5,0"/>
+                        <TextBlock Text="Contraseña" Foreground="DarkGray" IsHitTestVisible="False" VerticalAlignment="Center" Margin="5,0"
+                                   Visibility="{Binding Text, ElementName=txtPassword, Converter={StaticResource StringToVisibilityConverter}}"/>
                     </Grid>
+
+                    <Grid Margin="0,4">
+                        <TextBox x:Name="txtNombre" Text="{Binding User.Name, UpdateSourceTrigger=PropertyChanged}"
+                                 FontSize="13" Foreground="White" BorderBrush="DarkGray" BorderThickness="0,0,0,2" Height="28" Background="Transparent" Padding="5,0"/>
+                        <TextBlock Text="Nombre" Foreground="DarkGray" IsHitTestVisible="False" VerticalAlignment="Center" Margin="5,0"
+                                   Visibility="{Binding Text, ElementName=txtNombre, Converter={StaticResource StringToVisibilityConverter}}"/>
+                    </Grid>
+
+                    <Grid Margin="0,4">
+                        <TextBox x:Name="txtApellido" Text="{Binding User.LastName, UpdateSourceTrigger=PropertyChanged}"
+                                 FontSize="13" Foreground="White" BorderBrush="DarkGray" BorderThickness="0,0,0,2" Height="28" Background="Transparent" Padding="5,0"/>
+                        <TextBlock Text="Apellido" Foreground="DarkGray" IsHitTestVisible="False" VerticalAlignment="Center" Margin="5,0"
+                                   Visibility="{Binding Text, ElementName=txtApellido, Converter={StaticResource StringToVisibilityConverter}}"/>
+                    </Grid>
+
+                    <Grid Margin="0,4">
+                        <TextBox x:Name="txtCorreo" Text="{Binding User.Email, UpdateSourceTrigger=PropertyChanged}"
+                                 FontSize="13" Foreground="White" BorderBrush="DarkGray" BorderThickness="0,0,0,2" Height="28" Background="Transparent" Padding="5,0"/>
+                        <TextBlock Text="Correo electrónico" Foreground="DarkGray" IsHitTestVisible="False" VerticalAlignment="Center" Margin="5,0"
+                                   Visibility="{Binding Text, ElementName=txtCorreo, Converter={StaticResource StringToVisibilityConverter}}"/>
+                    </Grid>
+
+                    <TextBlock Text="{Binding ErrorMessage}" Foreground="#D7596D" FontSize="12" Margin="0,5" TextWrapping="Wrap"/>
 
                     <Button x:Name="btnRegistrar" Command="{Binding AddCommand}" Content="REGISTRAR" 
-                            Foreground="White" FontSize="14" Cursor="Hand" Margin="0,20,0,0">
+                            Foreground="White" FontSize="14" Cursor="Hand" Margin="0,15,0,0">
                         <Button.Template>
                             <ControlTemplate TargetType="Button">
                                 <Border Width="150" Height="40" CornerRadius="20" Background="#462AD8">
@@ -113,8 +138,8 @@
                         </Button.Template>
                     </Button>
 
-                    <Button x:Name="btnCancelar" Content="CANCELAR" Click="btnClose_Click"
-                            Foreground="LightGray" FontSize="11" Margin="0,10,0,0" Background="Transparent" BorderThickness="0"/>
+                    <Button x:Name="btnCancelar" Click="btnClose_Click" Content="CANCELAR" 
+                            Foreground="White" FontSize="11" Margin="0,10,0,0" Background="Transparent" BorderThickness="0"/>
                 </StackPanel>
             </Grid>
         </Border>
