@@ -37,8 +37,8 @@ namespace Gym2.Repositories
                 command.Connection = connection;
 
                 command.CommandText =
-                    "INSERT INTO [User] (Id, Username, Password, Name, LastName, Email) " +
-                    "VALUES(@Id, @Username, @Password, @Name, @LastName, @Email)";
+                "INSERT INTO [User] (Id, Username, Password, Nombre, Apellido, Correo) " +
+                "VALUES(@Id, @Username, @Password, @Name, @LastName, @Email)";
 
                 command.Parameters.AddWithValue("@Id", userModel.Id);
                 command.Parameters.AddWithValue("@Username", userModel.Username);

@@ -11,7 +11,7 @@ namespace Gym2.Repositories
         {
             _connectionString =
                 "Server=laptop-noscfotb\\vsgestion;" +
-                "Database=GestionGym;" +
+                "Database=GestionGym2;" +
                 "Integrated Security=true";
         }
         protected SqlConnection GetConnection()

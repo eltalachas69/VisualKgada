@@ -18,6 +18,7 @@ namespace Gym2.Views
         {
             // Ahora sí reconocerá este método porque el nombre de la clase coincide con el XAML
             InitializeComponent();
+            this.DataContext = new Gym2.ViewModel.ManejoUsuariosViewModel();
         }
     }
 }

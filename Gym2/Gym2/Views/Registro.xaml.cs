@@ -7,6 +7,7 @@ namespace Gym2.Views //
         public Registro()
         {
             InitializeComponent();
+            this.DataContext = new Gym2.ViewModel.RegistroViewModel();
         }
 
         // Agrega estos métodos para quitar los errores CS1061 de la imagen
