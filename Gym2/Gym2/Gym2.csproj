@@ -56,6 +56,7 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="Commands\ViewModelCommand.cs" />
+    <Compile Include="Converters\NullToBooleanConverter.cs" />
     <Compile Include="Converters\StringToVisibilityConverter.cs" />
     <Compile Include="CustomControls\customControls.xaml.cs">
       <DependentUpon>customControls.xaml</DependentUpon>
@@ -65,7 +66,9 @@
     <Compile Include="ViewModel\MainViewModel.cs" />
     <Compile Include="ViewModel\ManejoUsuarioViewModel.cs" />
     <Compile Include="ViewModel\RegistroViewModel.cs" />
+    <Compile Include="ViewModel\RelayCommand.cs" />
     <Compile Include="ViewModel\ViewModelBase.cs" />
+    <Compile Include="ViewModel\ViewModelCommand.cs" />
     <Compile Include="Views\ManejoUsuarios.xaml.cs">
       <DependentUpon>ManejoUsuarios.xaml</DependentUpon>
     </Compile>

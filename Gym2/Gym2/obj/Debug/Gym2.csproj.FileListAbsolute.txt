@@ -38,3 +38,12 @@ C:\Users\xxkry\OneDrive\Escritorio\Universidad\.NET\VisualKgada\Gym2\Gym2\obj\De
 C:\Users\xxkry\OneDrive\Escritorio\Universidad\.NET\VisualKgada\Gym2\Gym2\obj\Debug\Gym2.Properties.Resources.resources
 C:\Users\xxkry\OneDrive\Escritorio\Universidad\.NET\VisualKgada\Gym2\Gym2\obj\Debug\Gym2.csproj.GenerateResource.cache
 C:\Users\xxkry\OneDrive\Escritorio\Universidad\.NET\VisualKgada\Gym2\Gym2\obj\Debug\Gym2.csproj.CoreCompileInputs.cache
+C:\Users\juanc\OneDrive\Documentos\Escuela\Cuarto Semestre\visual net\parcial 1\Git\VisualKgada\Gym2\Gym2\obj\Debug\Gym2.csproj.AssemblyReference.cache
+C:\Users\juanc\OneDrive\Documentos\Escuela\Cuarto Semestre\visual net\parcial 1\Git\VisualKgada\Gym2\Gym2\obj\Debug\CustomControls\customControls.g.cs
+C:\Users\juanc\OneDrive\Documentos\Escuela\Cuarto Semestre\visual net\parcial 1\Git\VisualKgada\Gym2\Gym2\obj\Debug\MainWindow.g.cs
+C:\Users\juanc\OneDrive\Documentos\Escuela\Cuarto Semestre\visual net\parcial 1\Git\VisualKgada\Gym2\Gym2\obj\Debug\Views\ManejoUsuarios.g.cs
+C:\Users\juanc\OneDrive\Documentos\Escuela\Cuarto Semestre\visual net\parcial 1\Git\VisualKgada\Gym2\Gym2\obj\Debug\Views\Registro.g.cs
+C:\Users\juanc\OneDrive\Documentos\Escuela\Cuarto Semestre\visual net\parcial 1\Git\VisualKgada\Gym2\Gym2\obj\Debug\App.g.cs
+C:\Users\juanc\OneDrive\Documentos\Escuela\Cuarto Semestre\visual net\parcial 1\Git\VisualKgada\Gym2\Gym2\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\juanc\OneDrive\Documentos\Escuela\Cuarto Semestre\visual net\parcial 1\Git\VisualKgada\Gym2\Gym2\obj\Debug\Gym2_MarkupCompile.cache
+C:\Users\juanc\OneDrive\Documentos\Escuela\Cuarto Semestre\visual net\parcial 1\Git\VisualKgada\Gym2\Gym2\obj\Debug\Gym2_MarkupCompile.lref
