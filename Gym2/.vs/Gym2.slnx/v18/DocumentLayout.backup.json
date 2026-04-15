@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{64BDB086-5E9B-49EF-BF98-27E203F68E87}|Gym2\\Gym2.csproj|solutionrelative:gym2\\repositories\\repositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{64BDB086-5E9B-49EF-BF98-27E203F68E87}|Gym2\\Gym2.csproj|c:\\users\\juanc\\onedrive\\documentos\\escuela\\cuarto semestre\\visual net\\parcial 1\\git\\visualkgada\\gym2\\gym2\\viewmodel\\viewmodelcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{64BDB086-5E9B-49EF-BF98-27E203F68E87}|Gym2\\Gym2.csproj|C:\\Users\\juanc\\OneDrive\\Documentos\\Escuela\\Cuarto Semestre\\visual net\\parcial 1\\Git\\VisualKgada\\Gym2\\gym2\\viewmodel\\viewmodelcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{64BDB086-5E9B-49EF-BF98-27E203F68E87}|Gym2\\Gym2.csproj|solutionrelative:gym2\\viewmodel\\viewmodelcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -15,11 +15,11 @@
       "RelativeMoniker": "D:0:0:{64BDB086-5E9B-49EF-BF98-27E203F68E87}|Gym2\\Gym2.csproj|solutionrelative:gym2\\viewmodel\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{64BDB086-5E9B-49EF-BF98-27E203F68E87}|Gym2\\Gym2.csproj|c:\\users\\juanc\\onedrive\\documentos\\escuela\\cuarto semestre\\visual net\\parcial 1\\git\\visualkgada\\gym2\\gym2\\viewmodel\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{64BDB086-5E9B-49EF-BF98-27E203F68E87}|Gym2\\Gym2.csproj|C:\\Users\\juanc\\OneDrive\\Documentos\\Escuela\\Cuarto Semestre\\visual net\\parcial 1\\Git\\VisualKgada\\Gym2\\gym2\\viewmodel\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{64BDB086-5E9B-49EF-BF98-27E203F68E87}|Gym2\\Gym2.csproj|solutionrelative:gym2\\viewmodel\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{64BDB086-5E9B-49EF-BF98-27E203F68E87}|Gym2\\Gym2.csproj|c:\\users\\juanc\\onedrive\\documentos\\escuela\\cuarto semestre\\visual net\\parcial 1\\git\\visualkgada\\gym2\\gym2\\model\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{64BDB086-5E9B-49EF-BF98-27E203F68E87}|Gym2\\Gym2.csproj|C:\\Users\\juanc\\OneDrive\\Documentos\\Escuela\\Cuarto Semestre\\visual net\\parcial 1\\Git\\VisualKgada\\Gym2\\gym2\\model\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{64BDB086-5E9B-49EF-BF98-27E203F68E87}|Gym2\\Gym2.csproj|solutionrelative:gym2\\model\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -27,7 +27,7 @@
       "RelativeMoniker": "D:0:0:{64BDB086-5E9B-49EF-BF98-27E203F68E87}|Gym2\\Gym2.csproj|solutionrelative:gym2\\model\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{64BDB086-5E9B-49EF-BF98-27E203F68E87}|Gym2\\Gym2.csproj|c:\\users\\juanc\\onedrive\\documentos\\escuela\\cuarto semestre\\visual net\\parcial 1\\git\\visualkgada\\gym2\\gym2\\converters\\nulltobooleanconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{64BDB086-5E9B-49EF-BF98-27E203F68E87}|Gym2\\Gym2.csproj|C:\\Users\\juanc\\OneDrive\\Documentos\\Escuela\\Cuarto Semestre\\visual net\\parcial 1\\Git\\VisualKgada\\Gym2\\gym2\\converters\\nulltobooleanconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{64BDB086-5E9B-49EF-BF98-27E203F68E87}|Gym2\\Gym2.csproj|solutionrelative:gym2\\converters\\nulltobooleanconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -77,8 +77,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RepositoryBase.cs",
+              "DocumentMoniker": "C:\\Users\\juanc\\OneDrive\\Documentos\\Escuela\\Cuarto Semestre\\visual net\\parcial 1\\Git\\VisualKgada\\Gym2\\Gym2\\Repositories\\RepositoryBase.cs",
+              "RelativeDocumentMoniker": "Gym2\\Repositories\\RepositoryBase.cs",
+              "ToolTip": "C:\\Users\\juanc\\OneDrive\\Documentos\\Escuela\\Cuarto Semestre\\visual net\\parcial 1\\Git\\VisualKgada\\Gym2\\Gym2\\Repositories\\RepositoryBase.cs*",
+              "RelativeToolTip": "Gym2\\Repositories\\RepositoryBase.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T07:06:10.664Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -89,8 +102,7 @@
               "RelativeToolTip": "Gym2\\ViewModel\\ViewModelCommand.cs",
               "ViewState": "AgIAAB0AAAAAAAAAAAAAACYAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-15T01:42:13.082Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-15T01:42:13.082Z"
             },
             {
               "$type": "Document",
@@ -102,8 +114,7 @@
               "RelativeToolTip": "Gym2\\ViewModel\\RelayCommand.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAABwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-15T01:36:46.057Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-15T01:36:46.057Z"
             },
             {
               "$type": "Document",
@@ -115,8 +126,7 @@
               "RelativeToolTip": "Gym2\\Model\\UserModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-15T01:32:19.041Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-15T01:32:19.041Z"
             },
             {
               "$type": "Document",
@@ -128,8 +138,7 @@
               "RelativeToolTip": "Gym2\\ViewModel\\ViewModelBase.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-13T07:07:00.089Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-13T07:07:00.089Z"
             },
             {
               "$type": "Document",
@@ -141,21 +150,7 @@
               "RelativeToolTip": "Gym2\\Converters\\NullToBooleanConverter.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-15T01:30:08.455Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "RepositoryBase.cs",
-              "DocumentMoniker": "C:\\Users\\juanc\\OneDrive\\Documentos\\Escuela\\Cuarto Semestre\\visual net\\parcial 1\\Git\\VisualKgada\\Gym2\\Gym2\\Repositories\\RepositoryBase.cs",
-              "RelativeDocumentMoniker": "Gym2\\Repositories\\RepositoryBase.cs",
-              "ToolTip": "C:\\Users\\juanc\\OneDrive\\Documentos\\Escuela\\Cuarto Semestre\\visual net\\parcial 1\\Git\\VisualKgada\\Gym2\\Gym2\\Repositories\\RepositoryBase.cs",
-              "RelativeToolTip": "Gym2\\Repositories\\RepositoryBase.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAmwAsAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-13T07:06:10.664Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-15T01:30:08.455Z"
             },
             {
               "$type": "Document",
@@ -191,8 +186,7 @@
               "RelativeToolTip": "Gym2\\Model\\IUserRepository.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-13T03:39:39.95Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-13T03:39:39.95Z"
             },
             {
               "$type": "Document",
@@ -228,8 +222,7 @@
               "RelativeToolTip": "Gym2\\Converters\\StringToVisibilityConverter.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-13T04:05:19.007Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-13T04:05:19.007Z"
             },
             {
               "$type": "Document",

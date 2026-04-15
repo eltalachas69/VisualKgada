@@ -4,17 +4,19 @@ namespace Gym2.Repositories
 {
     public abstract class RepositoryBase
     {
-        private readonly string connectionString;
+        private readonly string _connectionString;
+
 
         public RepositoryBase()
         {
-        
-            string connectionString = "Server=.\SQLEXPRESS; Database=GymDB; Integrated Security=True;";
+            _connectionString =
+                "Server=laptop-noscfotb\\vsgestion;" +
+                "Database=GestionGym;" +
+                "Integrated Security=true";
         }
-
         protected SqlConnection GetConnection()
         {
-            return new SqlConnection(connectionString);
+            return new SqlConnection(_connectionString);
         }
     }
 }
