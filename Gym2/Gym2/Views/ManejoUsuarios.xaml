@@ -39,7 +39,7 @@
         <DataGrid Grid.Row="1" ItemsSource="{Binding Users}" SelectedItem="{Binding SelectedUser}"
                   AutoGenerateColumns="False" HeadersVisibility="Column" CanUserAddRows="False"
                   RowHeight="35" AlternatingRowBackground="#F9F9F9"
-                  SelectionMode="Single" GridLinesVisibility="None">
+                  SelectionMode="Single" GridLinesVisibility="None" SelectionChanged="DataGrid_SelectionChanged">
             <DataGrid.Columns>
                 <DataGridTextColumn Header="Id" Binding="{Binding Id}" />
                 <DataGridTextColumn Header="User" Binding="{Binding Username}" Width="*"/>

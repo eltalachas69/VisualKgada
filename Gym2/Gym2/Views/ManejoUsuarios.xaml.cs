@@ -20,5 +20,10 @@ namespace Gym2.Views
             InitializeComponent();
             this.DataContext = new Gym2.ViewModel.ManejoUsuariosViewModel();
         }
+
+        private void DataGrid_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
     }
 }
