@@ -10,7 +10,7 @@ namespace Gym2.Repositories
         public RepositoryBase()
         {
             _connectionString =
-                @"Server=laptop-noscfotb\\vsgestion; " +
+                @"Server=laptop-noscfotb\vsgestion; " +
                 "Database=GestionGym2; " +
                 "Integrated Security=true; "+
                 "TrustServerCertificate=true;";

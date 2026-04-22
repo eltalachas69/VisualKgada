@@ -44,6 +44,7 @@ C:\Users\juanc\OneDrive\Documentos\Escuela\Cuarto Semestre\visual net\parcial 1\
 C:\Users\juanc\OneDrive\Documentos\Escuela\Cuarto Semestre\visual net\parcial 1\Git\VisualKgada\Gym2\Gym2\obj\Debug\Gym2.csproj.AssemblyReference.cache
 C:\Users\juanc\OneDrive\Documentos\Escuela\Cuarto Semestre\visual net\parcial 1\Git\VisualKgada\Gym2\Gym2\obj\Debug\CustomControls\customControls.g.cs
 C:\Users\juanc\OneDrive\Documentos\Escuela\Cuarto Semestre\visual net\parcial 1\Git\VisualKgada\Gym2\Gym2\obj\Debug\MainWindow.g.cs
+C:\Users\juanc\OneDrive\Documentos\Escuela\Cuarto Semestre\visual net\parcial 1\Git\VisualKgada\Gym2\Gym2\obj\Debug\Views\LoginView.g.cs
 C:\Users\juanc\OneDrive\Documentos\Escuela\Cuarto Semestre\visual net\parcial 1\Git\VisualKgada\Gym2\Gym2\obj\Debug\Views\ManejoUsuarios.g.cs
 C:\Users\juanc\OneDrive\Documentos\Escuela\Cuarto Semestre\visual net\parcial 1\Git\VisualKgada\Gym2\Gym2\obj\Debug\Views\Registro.g.cs
 C:\Users\juanc\OneDrive\Documentos\Escuela\Cuarto Semestre\visual net\parcial 1\Git\VisualKgada\Gym2\Gym2\obj\Debug\App.g.cs
@@ -52,6 +53,7 @@ C:\Users\juanc\OneDrive\Documentos\Escuela\Cuarto Semestre\visual net\parcial 1\
 C:\Users\juanc\OneDrive\Documentos\Escuela\Cuarto Semestre\visual net\parcial 1\Git\VisualKgada\Gym2\Gym2\obj\Debug\Gym2_MarkupCompile.lref
 C:\Users\juanc\OneDrive\Documentos\Escuela\Cuarto Semestre\visual net\parcial 1\Git\VisualKgada\Gym2\Gym2\obj\Debug\CustomControls\customControls.baml
 C:\Users\juanc\OneDrive\Documentos\Escuela\Cuarto Semestre\visual net\parcial 1\Git\VisualKgada\Gym2\Gym2\obj\Debug\MainWindow.baml
+C:\Users\juanc\OneDrive\Documentos\Escuela\Cuarto Semestre\visual net\parcial 1\Git\VisualKgada\Gym2\Gym2\obj\Debug\Views\LoginView.baml
 C:\Users\juanc\OneDrive\Documentos\Escuela\Cuarto Semestre\visual net\parcial 1\Git\VisualKgada\Gym2\Gym2\obj\Debug\Views\ManejoUsuarios.baml
 C:\Users\juanc\OneDrive\Documentos\Escuela\Cuarto Semestre\visual net\parcial 1\Git\VisualKgada\Gym2\Gym2\obj\Debug\Views\Registro.baml
 C:\Users\juanc\OneDrive\Documentos\Escuela\Cuarto Semestre\visual net\parcial 1\Git\VisualKgada\Gym2\Gym2\obj\Debug\Gym2.g.resources
