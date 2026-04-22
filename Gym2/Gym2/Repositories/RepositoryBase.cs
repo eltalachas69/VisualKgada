@@ -10,9 +10,10 @@ namespace Gym2.Repositories
         public RepositoryBase()
         {
             _connectionString =
-                "Server=laptop-noscfotb\\vsgestion;" +
-                "Database=GestionGym2;" +
-                "Integrated Security=true";
+                @"Server=laptop-noscfotb\\vsgestion; " +
+                "Database=GestionGym2; " +
+                "Integrated Security=true; "+
+                "TrustServerCertificate=true;";
         }
         protected SqlConnection GetConnection()
         {
