@@ -36,18 +36,24 @@ namespace Gym2.Repositories
                 connection.Open();
                 command.Connection = connection;
 
+                // Do not insert explicit value into identity column. Let the database generate it.
                 command.CommandText =
-                "INSERT INTO [User] (Id, Username, Password, Name, LastName, Email) " +
-                "VALUES(@Id, @Username, @Password, @Name, @LastName, @Email)";
+                "INSERT INTO [User] (Username, Password, Name, LastName, Email) " +
+                "VALUES(@Username, @Password, @Name, @LastName, @Email); " +
+                "SELECT SCOPE_IDENTITY();";
 
-                command.Parameters.AddWithValue("@Id", userModel.Id);
                 command.Parameters.AddWithValue("@Username", userModel.Username);
                 command.Parameters.AddWithValue("@Password", userModel.Password);
                 command.Parameters.AddWithValue("@Name", userModel.Name);
                 command.Parameters.AddWithValue("@LastName", userModel.LastName);
                 command.Parameters.AddWithValue("@Email", userModel.Email);
 
-                command.ExecuteNonQuery();
+                var result = command.ExecuteScalar();
+                if (result != null && result != DBNull.Value)
+                {
+                    // SCOPE_IDENTITY() can return decimal; store as string in the model
+                    userModel.Id = result.ToString();
+                }
             }
         }
 
