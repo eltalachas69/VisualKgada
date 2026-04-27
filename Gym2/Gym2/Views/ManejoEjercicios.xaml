@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:viewModel="clr-namespace:Gym2.ViewModel"
         mc:Ignorable="d"
-        Title="Gestión de Ejercicios" Height="600" Width="1000"
+        Title="Gestión de Ejercicios" Height="670" Width="1055"
         WindowStartupLocation="CenterScreen"
         Background="#1A1C1E">
 
@@ -14,12 +14,16 @@
     </Window.DataContext>
 
     <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="287*"/>
+            <RowDefinition Height="5*"/>
+        </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"/>
             <ColumnDefinition Width="350"/>
         </Grid.ColumnDefinitions>
 
-        <GroupBox Header="Listado de Ejercicios" Foreground="White" Margin="10" BorderBrush="#3F3F3F">
+        <GroupBox Header="Listado de Ejercicios" Foreground="White" Margin="10,10,10,0" BorderBrush="#3F3F3F">
             <DataGrid ItemsSource="{Binding Ejercicios}" 
                       SelectedItem="{Binding EjercicioSeleccionado}"
                       AutoGenerateColumns="False" 
@@ -38,7 +42,7 @@
             </DataGrid>
         </GroupBox>
 
-        <Border Grid.Column="1" Background="#25282B" Margin="10" CornerRadius="10">
+        <Border Grid.Column="1" Background="#25282B" Margin="10,10,10,0" CornerRadius="10">
             <StackPanel Margin="25">
 
                 <TextBlock Text="Editor de Ejercicio" Foreground="White" FontSize="20" FontWeight="Bold" Margin="0,0,0,20"/>

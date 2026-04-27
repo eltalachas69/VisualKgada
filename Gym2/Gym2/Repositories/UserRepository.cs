@@ -154,5 +154,53 @@ namespace Gym2.Repositories
 
             return users;
         }
+
+
+        public void AddAdmin(int userId)
+        {
+            using (var connection = GetConnection())
+            using (var command = new SqlCommand("INSERT INTO [Admin] (UserId) VALUES (@UserId)", connection))
+            {
+                connection.Open();
+                command.Parameters.AddWithValue("@UserId", userId);
+                command.ExecuteNonQuery();
+            }
+        }
+
+        public void RemoveAdmin(int userId)
+        {
+            using (var connection = GetConnection())
+            using (var command = new SqlCommand("DELETE FROM [Admin] WHERE UserId = @UserId", connection))
+            {
+                connection.Open();
+                command.Parameters.AddWithValue("@UserId", userId);
+                command.ExecuteNonQuery();
+            }
+        }
+
+        public IEnumerable<AdminModel> GetAllAdmins()
+        {
+            var adminList = new List<AdminModel>();
+            using (var connection = GetConnection())
+            using (var command = new SqlCommand(
+                @"SELECT a.UserId, u.Username, u.Name 
+                  FROM [Admin] a 
+                  INNER JOIN [User] u ON a.UserId = u.Id", connection))
+            {
+                connection.Open();
+                using (var reader = command.ExecuteReader())
+                {
+                    while (reader.Read())
+                    {
+                        adminList.Add(new AdminModel
+                        {
+                            UserId = (int)reader["UserId"],
+                            Username = reader["Username"].ToString()
+                        });
+                    }
+                }
+            }
+            return adminList;
+        }
     }
 }

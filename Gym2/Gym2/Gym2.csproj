@@ -61,6 +61,7 @@
     <Compile Include="CustomControls\customControls.xaml.cs">
       <DependentUpon>customControls.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Model\AdminModel.cs" />
     <Compile Include="Model\EjerciciosModel.cs" />
     <Compile Include="Model\IEjerciciosRepository.cs" />
     <Compile Include="Repositories\EjerciciosRepository.cs" />
@@ -69,6 +70,7 @@
     <Compile Include="ViewModel\LoginViewModel.cs" />
     <Compile Include="ViewModel\MainViewModel.cs" />
     <Compile Include="ViewModel\ManejoEjerciciosViewModel.cs" />
+    <Compile Include="ViewModel\ManejoUsuariosAdminViewModel.cs" />
     <Compile Include="ViewModel\ManejoUsuarioViewModel.cs" />
     <Compile Include="ViewModel\RegistroViewModel.cs" />
     <Compile Include="ViewModel\RelayCommand.cs" />
@@ -82,6 +84,9 @@
     </Compile>
     <Compile Include="Views\ManejoUsuarios.xaml.cs">
       <DependentUpon>ManejoUsuarios.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ManejoUsuariosAdmin.xaml.cs">
+      <DependentUpon>ManejoUsuariosAdmin.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\Registro.xaml.cs">
       <DependentUpon>Registro.xaml</DependentUpon>
@@ -111,6 +116,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Views\ManejoUsuarios.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\ManejoUsuariosAdmin.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
