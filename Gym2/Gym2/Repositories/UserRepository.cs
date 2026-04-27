@@ -259,6 +259,27 @@ namespace Gym2.Repositories
                 command.ExecuteNonQuery();
             }
         }
+
+        public bool IsUserAdmin(int userId)
+        {
+            bool isAdmin = false;
+            using (var connection = GetConnection())
+            using (var command = new SqlCommand())
+            {
+                connection.Open();
+                command.Connection = connection;
+                // Buscamos el ID en la tabla Admin
+                command.CommandText = "SELECT COUNT(*) FROM [Admin] WHERE UserId = @userId";
+                command.Parameters.Add("@userId", SqlDbType.Int).Value = userId;
+
+                int count = (int)command.ExecuteScalar();
+                if (count > 0)
+                {
+                    isAdmin = true;
+                }
+            }
+            return isAdmin;
+        }
     }
     
 }

@@ -69,23 +69,47 @@ namespace Gym2.ViewModel
             try
             {
                 var credential = new NetworkCredential(Username ?? string.Empty, Password ?? string.Empty);
-
+                // 1. Autenticamos las credenciales básicas
                 bool authenticated = userRepository.AuthenticateUser(credential);
 
                 if (authenticated)
                 {
-                    MessageBox.Show("Inicio de sesión exitoso.", "Éxito", MessageBoxButton.OK, MessageBoxImage.Information);
-                    // Limpiar contraseña después del login
-                    Password = string.Empty;
+                    // 2. Obtenemos los datos del usuario para tener su ID
+                    var user = userRepository.GetByUsername(Username);
+
+                    // 3. Verificamos si ese ID existe en la tabla Admin
+                    // (Nota: Debes agregar este método IsUserAdmin en tu UserRepository)
+                    bool esAdmin = userRepository.IsUserAdmin(int.Parse(user.Id));
+
+                    if (esAdmin)
+                    {
+                        // Si es Admin, entra al menú principal de gestión
+                        var adminView = new Gym2.Views.MenuAdmin();
+                        adminView.Show();
+                    }
+                    else
+                    {
+                        // Si no es Admin, es un Cliente
+                        // Aquí abrirías tu ventana de Menú Cliente
+                        // var clienteView = new MenuClienteWindow();
+                        // clienteView.Show();
+                        MessageBox.Show("Bienvenido, Cliente.");
+                    }
+
+                    // Cerramos la ventana de Login actual
+                    foreach (Window item in Application.Current.Windows)
+                    {
+                        if (item is Views.LoginView) item.Close();
+                    }
                 }
                 else
                 {
-                    MessageBox.Show("Usuario o contraseña incorrectos.", "Error de autenticación", MessageBoxButton.OK, MessageBoxImage.Error);
+                    MessageBox.Show("Usuario o contraseña incorrectos.");
                 }
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Ocurrió un error al intentar iniciar sesión: {ex.Message}", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                MessageBox.Show($"Error: {ex.Message}");
             }
         }
 

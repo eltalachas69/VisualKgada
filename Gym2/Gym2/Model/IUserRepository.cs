@@ -21,5 +21,6 @@ namespace Gym2.Model
         IEnumerable<ClienteModel> GetAllClientes();
         void AddCliente(int userId);
         void RemoveCliente(int userId);
+        bool IsUserAdmin(int userId);
     }
 }
