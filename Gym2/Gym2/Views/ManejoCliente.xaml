@@ -1,0 +1,91 @@
+﻿<Window x:Class="Gym2.Views.ManejoCliente"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:viewModel="clr-namespace:Gym2.ViewModel"
+        mc:Ignorable="d"
+        Title="Gestión de Clientes" Height="650" Width="850"
+        WindowStartupLocation="CenterScreen"
+        Background="#1A1C1E">
+
+    <Window.DataContext>
+        <viewModel:ManejoClienteViewModel/>
+    </Window.DataContext>
+
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Row="0" Orientation="Horizontal" Margin="10,0,10,20">
+            <TextBlock Text="PANEL DE CONTROL DE CLIENTES" 
+                       Foreground="#FFD700" 
+                       FontSize="22" 
+                       FontWeight="Bold"/>
+        </StackPanel>
+
+        <GroupBox Grid.Row="1" Header="CLIENTES ACTIVOS" 
+                  Foreground="White" BorderBrush="#3F3F3F" Margin="5">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+
+                <DataGrid ItemsSource="{Binding Clientes}" 
+                          SelectedItem="{Binding SelectedCliente}"
+                          AutoGenerateColumns="False" IsReadOnly="True"
+                          Background="#252525" Foreground="White" 
+                          RowBackground="#2D2D2D" BorderThickness="0">
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="ID" Binding="{Binding UserId}" Width="50"/>
+                        <DataGridTextColumn Header="Usuario" Binding="{Binding Username}" Width="*"/>
+                        <DataGridTextColumn Header="Membresía ID" Binding="{Binding MembresiaId}" Width="100"/>
+                    </DataGrid.Columns>
+                </DataGrid>
+
+                <Button Grid.Column="1" Content="QUITAR CLIENTE" 
+                        Command="{Binding RemoveClienteCommand}"
+                        Background="#E74C3C" Foreground="White"
+                        Width="130" Height="35" Margin="10" VerticalAlignment="Top"/>
+            </Grid>
+        </GroupBox>
+
+        <GroupBox Grid.Row="2" Header="USUARIOS DEL SISTEMA" 
+                  Foreground="White" BorderBrush="#3F3F3F" Margin="5">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+
+                <DataGrid ItemsSource="{Binding AllUsers}" 
+                          SelectedItem="{Binding SelectedUser}"
+                          AutoGenerateColumns="False" IsReadOnly="True"
+                          Background="#252525" Foreground="White"
+                          RowBackground="#2D2D2D" BorderThickness="0">
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="ID" Binding="{Binding Id}" Width="50"/>
+                        <DataGridTextColumn Header="Usuario" Binding="{Binding Username}" Width="*"/>
+                        <DataGridTextColumn Header="Email" Binding="{Binding Email}" Width="*"/>
+                    </DataGrid.Columns>
+                </DataGrid>
+
+                <StackPanel Grid.Column="1" VerticalAlignment="Top">
+                    <Button Content="HACER CLIENTE" 
+                            Command="{Binding MakeClienteCommand}"
+                            Background="#2ECC71" Foreground="White"
+                            Width="130" Height="35" Margin="10"/>
+
+                    <Button Content="ACTUALIZAR" 
+                            Command="{Binding RefreshCommand}"
+                            Background="#3498DB" Foreground="White"
+                            Width="130" Height="35" Margin="10"/>
+                </StackPanel>
+            </Grid>
+        </GroupBox>
+    </Grid>
+</Window>

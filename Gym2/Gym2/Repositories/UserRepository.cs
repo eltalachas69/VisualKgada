@@ -202,5 +202,63 @@ namespace Gym2.Repositories
             }
             return adminList;
         }
+
+        public IEnumerable<ClienteModel> GetAllClientes()
+        {
+            List<ClienteModel> clientes = new List<ClienteModel>();
+            using (var connection = GetConnection())
+            using (var command = new SqlCommand())
+            {
+                connection.Open();
+                command.Connection = connection;
+                // Hacemos el JOIN para traer el nombre de usuario de la tabla User
+                command.CommandText = "SELECT c.UserId, u.Username, c.MembresiaId FROM Cliente c INNER JOIN [User] u ON c.UserId = u.Id";
+
+                using (var reader = command.ExecuteReader())
+                {
+                    while (reader.Read())
+                    {
+                        ClienteModel cliente = new ClienteModel();
+                        cliente.UserId = reader.GetInt32(0);
+                        cliente.Username = reader.GetString(1);
+                        // Verificamos si MembresiaId es NULL en la base de datos
+                        cliente.MembresiaId = reader.IsDBNull(2) ? (int?)null : reader.GetInt32(2);
+
+                        clientes.Add(cliente);
+                    }
+                }
+            }
+            return clientes;
+        }
+
+        public void AddCliente(int userId)
+        {
+            using (var connection = GetConnection())
+            using (var command = new SqlCommand())
+            {
+                connection.Open();
+                command.Connection = connection;
+                // Insertamos el nuevo cliente. MembresiaId lo dejamos nulo por defecto
+                command.CommandText = "INSERT INTO Cliente (UserId, MembresiaId) VALUES (@UserId, NULL)";
+                command.Parameters.Add("@UserId", SqlDbType.Int).Value = userId;
+
+                command.ExecuteNonQuery();
+            }
+        }
+
+        public void RemoveCliente(int userId)
+        {
+            using (var connection = GetConnection())
+            using (var command = new SqlCommand())
+            {
+                connection.Open();
+                command.Connection = connection;
+                command.CommandText = "DELETE FROM Cliente WHERE UserId = @UserId";
+                command.Parameters.Add("@UserId", SqlDbType.Int).Value = userId;
+
+                command.ExecuteNonQuery();
+            }
+        }
     }
+    
 }

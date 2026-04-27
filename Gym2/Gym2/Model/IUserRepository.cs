@@ -18,5 +18,8 @@ namespace Gym2.Model
         void AddAdmin(int userId);
         void RemoveAdmin(int userId);
         IEnumerable<AdminModel> GetAllAdmins();
+        IEnumerable<ClienteModel> GetAllClientes();
+        void AddCliente(int userId);
+        void RemoveCliente(int userId);
     }
 }

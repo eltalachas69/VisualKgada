@@ -62,6 +62,7 @@
       <DependentUpon>customControls.xaml</DependentUpon>
     </Compile>
     <Compile Include="Model\AdminModel.cs" />
+    <Compile Include="Model\ClienteModel.cs" />
     <Compile Include="Model\EjerciciosModel.cs" />
     <Compile Include="Model\IEjerciciosRepository.cs" />
     <Compile Include="Model\IMembresiaRepository.cs" />
@@ -72,6 +73,7 @@
     <Compile Include="Repositories\UserRepository.cs" />
     <Compile Include="ViewModel\LoginViewModel.cs" />
     <Compile Include="ViewModel\MainViewModel.cs" />
+    <Compile Include="ViewModel\ManejoClienteViewModel.cs" />
     <Compile Include="ViewModel\ManejoEjerciciosViewModel.cs" />
     <Compile Include="ViewModel\ManejoMembresiaViewModel.cs" />
     <Compile Include="ViewModel\ManejoUsuariosAdminViewModel.cs" />
@@ -82,6 +84,9 @@
     <Compile Include="ViewModel\ViewModelCommand.cs" />
     <Compile Include="Views\LoginView.xaml.cs">
       <DependentUpon>LoginView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ManejoCliente.xaml.cs">
+      <DependentUpon>ManejoCliente.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\ManejoEjercicios.xaml.cs">
       <DependentUpon>ManejoEjercicios.xaml</DependentUpon>
@@ -115,6 +120,10 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="Views\LoginView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\ManejoCliente.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
