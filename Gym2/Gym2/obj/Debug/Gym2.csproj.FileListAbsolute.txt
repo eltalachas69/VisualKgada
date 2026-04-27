@@ -90,6 +90,7 @@ C:\Users\juanc\OneDrive\Documentos\Escuela\Cuarto Semestre\visual net\git\Visual
 C:\Users\juanc\OneDrive\Documentos\Escuela\Cuarto Semestre\visual net\git\VisualKgada\Gym2\Gym2\bin\Debug\Gym2.exe
 C:\Users\juanc\OneDrive\Documentos\Escuela\Cuarto Semestre\visual net\git\VisualKgada\Gym2\Gym2\bin\Debug\Gym2.pdb
 C:\Users\juanc\OneDrive\Documentos\Escuela\Cuarto Semestre\visual net\git\VisualKgada\Gym2\Gym2\obj\Debug\Gym2.csproj.AssemblyReference.cache
+C:\Users\juanc\OneDrive\Documentos\Escuela\Cuarto Semestre\visual net\git\VisualKgada\Gym2\Gym2\obj\Debug\Views\MenuCliente.baml
 C:\Users\juanc\OneDrive\Documentos\Escuela\Cuarto Semestre\visual net\git\VisualKgada\Gym2\Gym2\obj\Debug\CustomControls\customControls.g.cs
 C:\Users\juanc\OneDrive\Documentos\Escuela\Cuarto Semestre\visual net\git\VisualKgada\Gym2\Gym2\obj\Debug\MainWindow.g.cs
 C:\Users\juanc\OneDrive\Documentos\Escuela\Cuarto Semestre\visual net\git\VisualKgada\Gym2\Gym2\obj\Debug\Views\LoginView.g.cs
@@ -98,6 +99,8 @@ C:\Users\juanc\OneDrive\Documentos\Escuela\Cuarto Semestre\visual net\git\Visual
 C:\Users\juanc\OneDrive\Documentos\Escuela\Cuarto Semestre\visual net\git\VisualKgada\Gym2\Gym2\obj\Debug\Views\ManejoMembresia.g.cs
 C:\Users\juanc\OneDrive\Documentos\Escuela\Cuarto Semestre\visual net\git\VisualKgada\Gym2\Gym2\obj\Debug\Views\ManejoUsuarios.g.cs
 C:\Users\juanc\OneDrive\Documentos\Escuela\Cuarto Semestre\visual net\git\VisualKgada\Gym2\Gym2\obj\Debug\Views\ManejoUsuariosAdmin.g.cs
+C:\Users\juanc\OneDrive\Documentos\Escuela\Cuarto Semestre\visual net\git\VisualKgada\Gym2\Gym2\obj\Debug\Views\MenuAdmin.g.cs
+C:\Users\juanc\OneDrive\Documentos\Escuela\Cuarto Semestre\visual net\git\VisualKgada\Gym2\Gym2\obj\Debug\Views\MenuCliente.g.cs
 C:\Users\juanc\OneDrive\Documentos\Escuela\Cuarto Semestre\visual net\git\VisualKgada\Gym2\Gym2\obj\Debug\Views\Registro.g.cs
 C:\Users\juanc\OneDrive\Documentos\Escuela\Cuarto Semestre\visual net\git\VisualKgada\Gym2\Gym2\obj\Debug\App.g.cs
 C:\Users\juanc\OneDrive\Documentos\Escuela\Cuarto Semestre\visual net\git\VisualKgada\Gym2\Gym2\obj\Debug\GeneratedInternalTypeHelper.g.cs
@@ -111,6 +114,7 @@ C:\Users\juanc\OneDrive\Documentos\Escuela\Cuarto Semestre\visual net\git\Visual
 C:\Users\juanc\OneDrive\Documentos\Escuela\Cuarto Semestre\visual net\git\VisualKgada\Gym2\Gym2\obj\Debug\Views\ManejoMembresia.baml
 C:\Users\juanc\OneDrive\Documentos\Escuela\Cuarto Semestre\visual net\git\VisualKgada\Gym2\Gym2\obj\Debug\Views\ManejoUsuarios.baml
 C:\Users\juanc\OneDrive\Documentos\Escuela\Cuarto Semestre\visual net\git\VisualKgada\Gym2\Gym2\obj\Debug\Views\ManejoUsuariosAdmin.baml
+C:\Users\juanc\OneDrive\Documentos\Escuela\Cuarto Semestre\visual net\git\VisualKgada\Gym2\Gym2\obj\Debug\Views\MenuAdmin.baml
 C:\Users\juanc\OneDrive\Documentos\Escuela\Cuarto Semestre\visual net\git\VisualKgada\Gym2\Gym2\obj\Debug\Views\Registro.baml
 C:\Users\juanc\OneDrive\Documentos\Escuela\Cuarto Semestre\visual net\git\VisualKgada\Gym2\Gym2\obj\Debug\Gym2.g.resources
 C:\Users\juanc\OneDrive\Documentos\Escuela\Cuarto Semestre\visual net\git\VisualKgada\Gym2\Gym2\obj\Debug\Gym2.Properties.Resources.resources
@@ -118,5 +122,3 @@ C:\Users\juanc\OneDrive\Documentos\Escuela\Cuarto Semestre\visual net\git\Visual
 C:\Users\juanc\OneDrive\Documentos\Escuela\Cuarto Semestre\visual net\git\VisualKgada\Gym2\Gym2\obj\Debug\Gym2.csproj.CoreCompileInputs.cache
 C:\Users\juanc\OneDrive\Documentos\Escuela\Cuarto Semestre\visual net\git\VisualKgada\Gym2\Gym2\obj\Debug\Gym2.exe
 C:\Users\juanc\OneDrive\Documentos\Escuela\Cuarto Semestre\visual net\git\VisualKgada\Gym2\Gym2\obj\Debug\Gym2.pdb
-C:\Users\juanc\OneDrive\Documentos\Escuela\Cuarto Semestre\visual net\git\VisualKgada\Gym2\Gym2\obj\Debug\Views\MenuAdmin.g.cs
-C:\Users\juanc\OneDrive\Documentos\Escuela\Cuarto Semestre\visual net\git\VisualKgada\Gym2\Gym2\obj\Debug\Views\MenuAdmin.baml

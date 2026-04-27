@@ -79,6 +79,7 @@
     <Compile Include="ViewModel\ManejoUsuariosAdminViewModel.cs" />
     <Compile Include="ViewModel\ManejoUsuarioViewModel.cs" />
     <Compile Include="ViewModel\MenuAdminViewModel.cs" />
+    <Compile Include="ViewModel\MenuClienteViewModel.cs" />
     <Compile Include="ViewModel\RegistroViewModel.cs" />
     <Compile Include="ViewModel\RelayCommand.cs" />
     <Compile Include="ViewModel\ViewModelBase.cs" />
@@ -103,6 +104,9 @@
     </Compile>
     <Compile Include="Views\MenuAdmin.xaml.cs">
       <DependentUpon>MenuAdmin.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\MenuCliente.xaml.cs">
+      <DependentUpon>MenuCliente.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\Registro.xaml.cs">
       <DependentUpon>Registro.xaml</DependentUpon>
@@ -148,6 +152,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Views\MenuAdmin.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\MenuCliente.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

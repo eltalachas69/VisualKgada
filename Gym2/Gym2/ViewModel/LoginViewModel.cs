@@ -93,7 +93,8 @@ namespace Gym2.ViewModel
                         // Aquí abrirías tu ventana de Menú Cliente
                         // var clienteView = new MenuClienteWindow();
                         // clienteView.Show();
-                        MessageBox.Show("Bienvenido, Cliente.");
+                        var clienteView = new Gym2.Views.MenuCliente();
+                        clienteView.Show();
                     }
 
                     // Cerramos la ventana de Login actual
