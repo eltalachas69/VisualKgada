@@ -82,10 +82,12 @@
                 </StackPanel>
             </Button>
 
-            <Button Margin="15" Background="#F9F9F9" IsEnabled="False">
-                <StackPanel Opacity="0.5">
-                    <TextBlock Text="⚙️" FontSize="50" HorizontalAlignment="Center" Margin="0,0,0,10"/>
-                    <TextBlock Text="Configuración" FontSize="18" FontWeight="SemiBold"/>
+            <Button Command="{Binding AbrirAdminsCommand}" 
+                    CommandParameter="{Binding RelativeSource={RelativeSource AncestorType=Window}}"
+                    Margin="15" Background="White" Cursor="Hand">
+                <StackPanel>
+                    <TextBlock Text="👷" FontSize="50" HorizontalAlignment="Center" Margin="0,0,0,10"/>
+                    <TextBlock Text="Manejo Admins" FontSize="18" FontWeight="SemiBold"/>
                 </StackPanel>
             </Button>
 

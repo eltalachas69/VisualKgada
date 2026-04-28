@@ -13,6 +13,7 @@ namespace Gym2.ViewModel
         public ICommand AbrirUsuariosCommand { get; }
         public ICommand AbrirMembresiasCommand { get; }
         public ICommand AbrirEjerciciosCommand { get; }
+        public ICommand AbrirAdminsCommand { get; }
         public ICommand CerrarSesionCommand { get; }
 
         public MenuAdminViewModel()
@@ -22,7 +23,15 @@ namespace Gym2.ViewModel
             AbrirUsuariosCommand = new ViewModelCommand(EjecutarAbrirUsuarios);
             AbrirMembresiasCommand = new ViewModelCommand(EjecutarAbrirMembresias);
             AbrirEjerciciosCommand = new ViewModelCommand(EjecutarAbrirEjercicios);
+            AbrirAdminsCommand = new ViewModelCommand(EjecutarAbrirAdmins);
             CerrarSesionCommand = new ViewModelCommand(EjecutarCerrarSesion);
+        }
+
+        private void EjecutarAbrirAdmins(object obj)
+        {
+            ManejoUsuariosAdmin win = new ManejoUsuariosAdmin();
+            win.Show();
+            CerrarVentanaActual(obj);
         }
 
         private void EjecutarAbrirClientes(object obj)
@@ -34,7 +43,7 @@ namespace Gym2.ViewModel
 
         private void EjecutarAbrirUsuarios(object obj)
         {
-            ManejoUsuariosAdmin win = new ManejoUsuariosAdmin();
+            ManejoUsuarios win = new ManejoUsuarios();
             win.Show();
             CerrarVentanaActual(obj);
         }
