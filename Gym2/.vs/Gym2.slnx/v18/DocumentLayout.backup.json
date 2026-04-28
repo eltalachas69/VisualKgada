@@ -3,19 +3,23 @@
   "WorkspaceRootPath": "C:\\Users\\juanc\\OneDrive\\Documentos\\Escuela\\Cuarto Semestre\\visual net\\git\\VisualKgada\\Gym2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{64BDB086-5E9B-49EF-BF98-27E203F68E87}|Gym2\\Gym2.csproj|C:\\Users\\juanc\\OneDrive\\Documentos\\Escuela\\Cuarto Semestre\\visual net\\git\\VisualKgada\\Gym2\\gym2\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{64BDB086-5E9B-49EF-BF98-27E203F68E87}|Gym2\\Gym2.csproj|solutionrelative:gym2\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{64BDB086-5E9B-49EF-BF98-27E203F68E87}|Gym2\\Gym2.csproj|C:\\Users\\juanc\\OneDrive\\Documentos\\Escuela\\Cuarto Semestre\\visual net\\git\\VisualKgada\\Gym2\\gym2\\views\\loginview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{64BDB086-5E9B-49EF-BF98-27E203F68E87}|Gym2\\Gym2.csproj|solutionrelative:gym2\\views\\loginview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{64BDB086-5E9B-49EF-BF98-27E203F68E87}|Gym2\\Gym2.csproj|c:\\users\\juanc\\onedrive\\documentos\\escuela\\cuarto semestre\\visual net\\git\\visualkgada\\gym2\\gym2\\views\\menucliente.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{64BDB086-5E9B-49EF-BF98-27E203F68E87}|Gym2\\Gym2.csproj|c:\\users\\juanc\\onedrive\\documentos\\escuela\\cuarto semestre\\visual net\\git\\visualkgada\\gym2\\gym2\\viewmodel\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64BDB086-5E9B-49EF-BF98-27E203F68E87}|Gym2\\Gym2.csproj|solutionrelative:gym2\\viewmodel\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64BDB086-5E9B-49EF-BF98-27E203F68E87}|Gym2\\Gym2.csproj|C:\\Users\\juanc\\OneDrive\\Documentos\\Escuela\\Cuarto Semestre\\visual net\\git\\VisualKgada\\Gym2\\gym2\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{64BDB086-5E9B-49EF-BF98-27E203F68E87}|Gym2\\Gym2.csproj|solutionrelative:gym2\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64BDB086-5E9B-49EF-BF98-27E203F68E87}|Gym2\\Gym2.csproj|C:\\Users\\juanc\\OneDrive\\Documentos\\Escuela\\Cuarto Semestre\\visual net\\git\\VisualKgada\\Gym2\\gym2\\views\\menucliente.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{64BDB086-5E9B-49EF-BF98-27E203F68E87}|Gym2\\Gym2.csproj|solutionrelative:gym2\\views\\menucliente.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{64BDB086-5E9B-49EF-BF98-27E203F68E87}|Gym2\\Gym2.csproj|c:\\users\\juanc\\onedrive\\documentos\\escuela\\cuarto semestre\\visual net\\git\\visualkgada\\gym2\\gym2\\views\\menucliente.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "AbsoluteMoniker": "D:0:0:{64BDB086-5E9B-49EF-BF98-27E203F68E87}|Gym2\\Gym2.csproj|C:\\Users\\juanc\\OneDrive\\Documentos\\Escuela\\Cuarto Semestre\\visual net\\git\\VisualKgada\\Gym2\\gym2\\views\\menucliente.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
       "RelativeMoniker": "D:0:0:{64BDB086-5E9B-49EF-BF98-27E203F68E87}|Gym2\\Gym2.csproj|solutionrelative:gym2\\views\\menucliente.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
     },
     {
@@ -23,23 +27,23 @@
       "RelativeMoniker": "D:0:0:{64BDB086-5E9B-49EF-BF98-27E203F68E87}|Gym2\\Gym2.csproj|solutionrelative:gym2\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{64BDB086-5E9B-49EF-BF98-27E203F68E87}|Gym2\\Gym2.csproj|c:\\users\\juanc\\onedrive\\documentos\\escuela\\cuarto semestre\\visual net\\git\\visualkgada\\gym2\\gym2\\viewmodel\\menuclienteviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{64BDB086-5E9B-49EF-BF98-27E203F68E87}|Gym2\\Gym2.csproj|C:\\Users\\juanc\\OneDrive\\Documentos\\Escuela\\Cuarto Semestre\\visual net\\git\\VisualKgada\\Gym2\\gym2\\viewmodel\\menuclienteviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{64BDB086-5E9B-49EF-BF98-27E203F68E87}|Gym2\\Gym2.csproj|solutionrelative:gym2\\viewmodel\\menuclienteviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{64BDB086-5E9B-49EF-BF98-27E203F68E87}|Gym2\\Gym2.csproj|c:\\users\\juanc\\onedrive\\documentos\\escuela\\cuarto semestre\\visual net\\git\\visualkgada\\gym2\\gym2\\views\\manejoejercicios.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{64BDB086-5E9B-49EF-BF98-27E203F68E87}|Gym2\\Gym2.csproj|C:\\Users\\juanc\\OneDrive\\Documentos\\Escuela\\Cuarto Semestre\\visual net\\git\\VisualKgada\\Gym2\\gym2\\views\\manejoejercicios.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{64BDB086-5E9B-49EF-BF98-27E203F68E87}|Gym2\\Gym2.csproj|solutionrelative:gym2\\views\\manejoejercicios.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{64BDB086-5E9B-49EF-BF98-27E203F68E87}|Gym2\\Gym2.csproj|c:\\users\\juanc\\onedrive\\documentos\\escuela\\cuarto semestre\\visual net\\git\\visualkgada\\gym2\\gym2\\views\\manejomembresia.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{64BDB086-5E9B-49EF-BF98-27E203F68E87}|Gym2\\Gym2.csproj|C:\\Users\\juanc\\OneDrive\\Documentos\\Escuela\\Cuarto Semestre\\visual net\\git\\VisualKgada\\Gym2\\gym2\\views\\manejomembresia.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{64BDB086-5E9B-49EF-BF98-27E203F68E87}|Gym2\\Gym2.csproj|solutionrelative:gym2\\views\\manejomembresia.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{64BDB086-5E9B-49EF-BF98-27E203F68E87}|Gym2\\Gym2.csproj|c:\\users\\juanc\\onedrive\\documentos\\escuela\\cuarto semestre\\visual net\\git\\visualkgada\\gym2\\gym2\\views\\menuadmin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{64BDB086-5E9B-49EF-BF98-27E203F68E87}|Gym2\\Gym2.csproj|C:\\Users\\juanc\\OneDrive\\Documentos\\Escuela\\Cuarto Semestre\\visual net\\git\\VisualKgada\\Gym2\\gym2\\views\\menuadmin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{64BDB086-5E9B-49EF-BF98-27E203F68E87}|Gym2\\Gym2.csproj|solutionrelative:gym2\\views\\menuadmin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{64BDB086-5E9B-49EF-BF98-27E203F68E87}|Gym2\\Gym2.csproj|c:\\users\\juanc\\onedrive\\documentos\\escuela\\cuarto semestre\\visual net\\git\\visualkgada\\gym2\\gym2\\views\\manejousuariosadmin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{64BDB086-5E9B-49EF-BF98-27E203F68E87}|Gym2\\Gym2.csproj|C:\\Users\\juanc\\OneDrive\\Documentos\\Escuela\\Cuarto Semestre\\visual net\\git\\VisualKgada\\Gym2\\gym2\\views\\manejousuariosadmin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{64BDB086-5E9B-49EF-BF98-27E203F68E87}|Gym2\\Gym2.csproj|solutionrelative:gym2\\views\\manejousuariosadmin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
@@ -47,19 +51,15 @@
       "RelativeMoniker": "D:0:0:{64BDB086-5E9B-49EF-BF98-27E203F68E87}|Gym2\\Gym2.csproj|solutionrelative:gym2\\views\\manejousuarios.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{64BDB086-5E9B-49EF-BF98-27E203F68E87}|Gym2\\Gym2.csproj|c:\\users\\juanc\\onedrive\\documentos\\escuela\\cuarto semestre\\visual net\\git\\visualkgada\\gym2\\gym2\\views\\menuadmin.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "AbsoluteMoniker": "D:0:0:{64BDB086-5E9B-49EF-BF98-27E203F68E87}|Gym2\\Gym2.csproj|C:\\Users\\juanc\\OneDrive\\Documentos\\Escuela\\Cuarto Semestre\\visual net\\git\\VisualKgada\\Gym2\\gym2\\views\\menuadmin.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
       "RelativeMoniker": "D:0:0:{64BDB086-5E9B-49EF-BF98-27E203F68E87}|Gym2\\Gym2.csproj|solutionrelative:gym2\\views\\menuadmin.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{64BDB086-5E9B-49EF-BF98-27E203F68E87}|Gym2\\Gym2.csproj|c:\\users\\juanc\\onedrive\\documentos\\escuela\\cuarto semestre\\visual net\\git\\visualkgada\\gym2\\gym2\\viewmodel\\menuadminviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{64BDB086-5E9B-49EF-BF98-27E203F68E87}|Gym2\\Gym2.csproj|C:\\Users\\juanc\\OneDrive\\Documentos\\Escuela\\Cuarto Semestre\\visual net\\git\\VisualKgada\\Gym2\\gym2\\viewmodel\\menuadminviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{64BDB086-5E9B-49EF-BF98-27E203F68E87}|Gym2\\Gym2.csproj|solutionrelative:gym2\\viewmodel\\menuadminviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{64BDB086-5E9B-49EF-BF98-27E203F68E87}|Gym2\\Gym2.csproj|c:\\users\\juanc\\onedrive\\documentos\\escuela\\cuarto semestre\\visual net\\git\\visualkgada\\gym2\\gym2\\viewmodel\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{64BDB086-5E9B-49EF-BF98-27E203F68E87}|Gym2\\Gym2.csproj|solutionrelative:gym2\\viewmodel\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{64BDB086-5E9B-49EF-BF98-27E203F68E87}|Gym2\\Gym2.csproj|c:\\users\\juanc\\onedrive\\documentos\\escuela\\cuarto semestre\\visual net\\git\\visualkgada\\gym2\\gym2\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{64BDB086-5E9B-49EF-BF98-27E203F68E87}|Gym2\\Gym2.csproj|C:\\Users\\juanc\\OneDrive\\Documentos\\Escuela\\Cuarto Semestre\\visual net\\git\\VisualKgada\\Gym2\\gym2\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{64BDB086-5E9B-49EF-BF98-27E203F68E87}|Gym2\\Gym2.csproj|solutionrelative:gym2\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
@@ -106,7 +106,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -118,20 +118,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MenuCliente.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\juanc\\OneDrive\\Documentos\\Escuela\\Cuarto Semestre\\visual net\\git\\VisualKgada\\Gym2\\Gym2\\Views\\MenuCliente.xaml.cs",
-              "RelativeDocumentMoniker": "Gym2\\Views\\MenuCliente.xaml.cs",
-              "ToolTip": "C:\\Users\\juanc\\OneDrive\\Documentos\\Escuela\\Cuarto Semestre\\visual net\\git\\VisualKgada\\Gym2\\Gym2\\Views\\MenuCliente.xaml.cs",
-              "RelativeToolTip": "Gym2\\Views\\MenuCliente.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-27T12:04:43.018Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "MenuClienteViewModel.cs",
               "DocumentMoniker": "C:\\Users\\juanc\\OneDrive\\Documentos\\Escuela\\Cuarto Semestre\\visual net\\git\\VisualKgada\\Gym2\\Gym2\\ViewModel\\MenuClienteViewModel.cs",
               "RelativeDocumentMoniker": "Gym2\\ViewModel\\MenuClienteViewModel.cs",
@@ -139,24 +126,22 @@
               "RelativeToolTip": "Gym2\\ViewModel\\MenuClienteViewModel.cs",
               "ViewState": "AgIAABEAAAAAAAAAAAAgwCoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-27T12:04:08.294Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-27T12:04:08.294Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "MenuCliente.xaml",
               "DocumentMoniker": "C:\\Users\\juanc\\OneDrive\\Documentos\\Escuela\\Cuarto Semestre\\visual net\\git\\VisualKgada\\Gym2\\Gym2\\Views\\MenuCliente.xaml",
               "RelativeDocumentMoniker": "Gym2\\Views\\MenuCliente.xaml",
               "ToolTip": "C:\\Users\\juanc\\OneDrive\\Documentos\\Escuela\\Cuarto Semestre\\visual net\\git\\VisualKgada\\Gym2\\Gym2\\Views\\MenuCliente.xaml",
               "RelativeToolTip": "Gym2\\Views\\MenuCliente.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-04-27T12:03:05.691Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-27T12:03:05.691Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "C:\\Users\\juanc\\OneDrive\\Documentos\\Escuela\\Cuarto Semestre\\visual net\\git\\VisualKgada\\Gym2\\Gym2\\Repositories\\UserRepository.cs",
               "RelativeDocumentMoniker": "Gym2\\Repositories\\UserRepository.cs",
@@ -164,24 +149,23 @@
               "RelativeToolTip": "Gym2\\Repositories\\UserRepository.cs",
               "ViewState": "AgIAAJ0AAAAAAAAAAAAvwNwAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-27T08:02:12.404Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-27T08:02:12.404Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "LoginView.xaml",
               "DocumentMoniker": "C:\\Users\\juanc\\OneDrive\\Documentos\\Escuela\\Cuarto Semestre\\visual net\\git\\VisualKgada\\Gym2\\Gym2\\Views\\LoginView.xaml",
               "RelativeDocumentMoniker": "Gym2\\Views\\LoginView.xaml",
-              "ToolTip": "C:\\Users\\juanc\\OneDrive\\Documentos\\Escuela\\Cuarto Semestre\\visual net\\git\\VisualKgada\\Gym2\\Gym2\\Views\\LoginView.xaml",
-              "RelativeToolTip": "Gym2\\Views\\LoginView.xaml",
+              "ToolTip": "C:\\Users\\juanc\\OneDrive\\Documentos\\Escuela\\Cuarto Semestre\\visual net\\git\\VisualKgada\\Gym2\\Gym2\\Views\\LoginView.xaml*",
+              "RelativeToolTip": "Gym2\\Views\\LoginView.xaml*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2026-04-27T07:58:32.941Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\Users\\juanc\\OneDrive\\Documentos\\Escuela\\Cuarto Semestre\\visual net\\git\\VisualKgada\\Gym2\\Gym2\\App.xaml",
               "RelativeDocumentMoniker": "Gym2\\App.xaml",
@@ -193,67 +177,87 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\juanc\\OneDrive\\Documentos\\Escuela\\Cuarto Semestre\\visual net\\git\\VisualKgada\\Gym2\\Gym2\\ViewModel\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "Gym2\\ViewModel\\LoginViewModel.cs",
+              "ToolTip": "C:\\Users\\juanc\\OneDrive\\Documentos\\Escuela\\Cuarto Semestre\\visual net\\git\\VisualKgada\\Gym2\\Gym2\\ViewModel\\LoginViewModel.cs*",
+              "RelativeToolTip": "Gym2\\ViewModel\\LoginViewModel.cs*",
+              "ViewState": "AgIAAHQAAAAAAAAAAAAswIYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T11:31:44.912Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MenuCliente.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\juanc\\OneDrive\\Documentos\\Escuela\\Cuarto Semestre\\visual net\\git\\VisualKgada\\Gym2\\Gym2\\Views\\MenuCliente.xaml.cs",
+              "RelativeDocumentMoniker": "Gym2\\Views\\MenuCliente.xaml.cs",
+              "ToolTip": "C:\\Users\\juanc\\OneDrive\\Documentos\\Escuela\\Cuarto Semestre\\visual net\\git\\VisualKgada\\Gym2\\Gym2\\Views\\MenuCliente.xaml.cs",
+              "RelativeToolTip": "Gym2\\Views\\MenuCliente.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T12:04:43.018Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "ManejoMembresia.xaml",
               "DocumentMoniker": "C:\\Users\\juanc\\OneDrive\\Documentos\\Escuela\\Cuarto Semestre\\visual net\\git\\VisualKgada\\Gym2\\Gym2\\Views\\ManejoMembresia.xaml",
               "RelativeDocumentMoniker": "Gym2\\Views\\ManejoMembresia.xaml",
               "ToolTip": "C:\\Users\\juanc\\OneDrive\\Documentos\\Escuela\\Cuarto Semestre\\visual net\\git\\VisualKgada\\Gym2\\Gym2\\Views\\ManejoMembresia.xaml",
               "RelativeToolTip": "Gym2\\Views\\ManejoMembresia.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-04-27T11:57:25.855Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-27T11:57:25.855Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "ManejoUsuariosAdmin.xaml",
               "DocumentMoniker": "C:\\Users\\juanc\\OneDrive\\Documentos\\Escuela\\Cuarto Semestre\\visual net\\git\\VisualKgada\\Gym2\\Gym2\\Views\\ManejoUsuariosAdmin.xaml",
               "RelativeDocumentMoniker": "Gym2\\Views\\ManejoUsuariosAdmin.xaml",
               "ToolTip": "C:\\Users\\juanc\\OneDrive\\Documentos\\Escuela\\Cuarto Semestre\\visual net\\git\\VisualKgada\\Gym2\\Gym2\\Views\\ManejoUsuariosAdmin.xaml",
               "RelativeToolTip": "Gym2\\Views\\ManejoUsuariosAdmin.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-04-27T11:57:34.006Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-27T11:57:34.006Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "ManejoEjercicios.xaml",
               "DocumentMoniker": "C:\\Users\\juanc\\OneDrive\\Documentos\\Escuela\\Cuarto Semestre\\visual net\\git\\VisualKgada\\Gym2\\Gym2\\Views\\ManejoEjercicios.xaml",
               "RelativeDocumentMoniker": "Gym2\\Views\\ManejoEjercicios.xaml",
               "ToolTip": "C:\\Users\\juanc\\OneDrive\\Documentos\\Escuela\\Cuarto Semestre\\visual net\\git\\VisualKgada\\Gym2\\Gym2\\Views\\ManejoEjercicios.xaml",
               "RelativeToolTip": "Gym2\\Views\\ManejoEjercicios.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-04-27T08:20:48.284Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-27T08:20:48.284Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "ManejoUsuarios.xaml",
               "DocumentMoniker": "C:\\Users\\juanc\\OneDrive\\Documentos\\Escuela\\Cuarto Semestre\\visual net\\git\\VisualKgada\\Gym2\\Gym2\\Views\\ManejoUsuarios.xaml",
               "RelativeDocumentMoniker": "Gym2\\Views\\ManejoUsuarios.xaml",
               "ToolTip": "C:\\Users\\juanc\\OneDrive\\Documentos\\Escuela\\Cuarto Semestre\\visual net\\git\\VisualKgada\\Gym2\\Gym2\\Views\\ManejoUsuarios.xaml",
               "RelativeToolTip": "Gym2\\Views\\ManejoUsuarios.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-04-27T07:58:36.646Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-27T07:58:36.646Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "MenuAdmin.xaml",
               "DocumentMoniker": "C:\\Users\\juanc\\OneDrive\\Documentos\\Escuela\\Cuarto Semestre\\visual net\\git\\VisualKgada\\Gym2\\Gym2\\Views\\MenuAdmin.xaml",
               "RelativeDocumentMoniker": "Gym2\\Views\\MenuAdmin.xaml",
               "ToolTip": "C:\\Users\\juanc\\OneDrive\\Documentos\\Escuela\\Cuarto Semestre\\visual net\\git\\VisualKgada\\Gym2\\Gym2\\Views\\MenuAdmin.xaml",
               "RelativeToolTip": "Gym2\\Views\\MenuAdmin.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-04-27T11:40:59.603Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-27T11:40:59.603Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "MenuAdmin.xaml.cs",
               "DocumentMoniker": "C:\\Users\\juanc\\OneDrive\\Documentos\\Escuela\\Cuarto Semestre\\visual net\\git\\VisualKgada\\Gym2\\Gym2\\Views\\MenuAdmin.xaml.cs",
               "RelativeDocumentMoniker": "Gym2\\Views\\MenuAdmin.xaml.cs",
@@ -261,25 +265,11 @@
               "RelativeToolTip": "Gym2\\Views\\MenuAdmin.xaml.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-27T11:55:19.56Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-27T11:55:19.56Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "LoginViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\juanc\\OneDrive\\Documentos\\Escuela\\Cuarto Semestre\\visual net\\git\\VisualKgada\\Gym2\\Gym2\\ViewModel\\LoginViewModel.cs",
-              "RelativeDocumentMoniker": "Gym2\\ViewModel\\LoginViewModel.cs",
-              "ToolTip": "C:\\Users\\juanc\\OneDrive\\Documentos\\Escuela\\Cuarto Semestre\\visual net\\git\\VisualKgada\\Gym2\\Gym2\\ViewModel\\LoginViewModel.cs",
-              "RelativeToolTip": "Gym2\\ViewModel\\LoginViewModel.cs",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAEwFcAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-27T11:31:44.912Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
               "Title": "MenuAdminViewModel.cs",
               "DocumentMoniker": "C:\\Users\\juanc\\OneDrive\\Documentos\\Escuela\\Cuarto Semestre\\visual net\\git\\VisualKgada\\Gym2\\Gym2\\ViewModel\\MenuAdminViewModel.cs",
               "RelativeDocumentMoniker": "Gym2\\ViewModel\\MenuAdminViewModel.cs",
@@ -287,8 +277,7 @@
               "RelativeToolTip": "Gym2\\ViewModel\\MenuAdminViewModel.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAwwEcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-27T11:46:41.019Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-27T11:46:41.019Z"
             },
             {
               "$type": "Document",
@@ -299,8 +288,7 @@
               "ToolTip": "C:\\Users\\juanc\\OneDrive\\Documentos\\Escuela\\Cuarto Semestre\\visual net\\git\\VisualKgada\\Gym2\\Gym2\\MainWindow.xaml",
               "RelativeToolTip": "Gym2\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-04-27T11:48:58.537Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-27T11:48:58.537Z"
             },
             {
               "$type": "Document",
@@ -312,8 +300,7 @@
               "RelativeToolTip": "Gym2\\Model\\IUserRepository.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAA1wBcAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-27T08:00:17.177Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-27T08:00:17.177Z"
             },
             {
               "$type": "Document",
@@ -325,8 +312,7 @@
               "RelativeToolTip": "Gym2\\Model\\UserModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-27T07:57:27.738Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-27T07:57:27.738Z"
             },
             {
               "$type": "Document",

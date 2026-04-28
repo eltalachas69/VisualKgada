@@ -32,6 +32,13 @@
                 <Button Content="INGRESAR" Command="{Binding LoginCommand}" Height="36" Background="DarkGray" Foreground="Gray" Margin="0,6,0,4" Click="Button_Click" />
 
                 <Button Content="CANCELAR" Height="28" Background="DarkGray" Foreground="Gray" BorderThickness="0" Click="btnCancelar_Click" />
+
+                <TextBlock HorizontalAlignment="Center" Margin="0,15,0,0" FontSize="12">
+                    <Run Text="¿No tienes cuenta?" Foreground="White"/>
+                    <Hyperlink Command="{Binding ShowRegisterCommand}" Foreground="SkyBlue" TextDecorations="Underline">
+                        Regístrate aquí
+                    </Hyperlink>
+                </TextBlock>
             </StackPanel>
         </Border>
     </Grid>
