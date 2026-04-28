@@ -1,1 +1,20 @@
+## Archivos de usuario y temporales de Visual Studio
 .vs/
+[Bb]in/
+[Oo]bj/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+## Archivos de bases de datos temporales
+*.sqlite
+
+## Resultados de compilación
+*.exe
+*.pdb
+*.dll
+*.config
+
+## Caché de paquetes NuGet
+packages/
